@@ -27,7 +27,6 @@ EXTRAS = ROOT / "data" / "ekler.json"
 CR = "https://chess-results.com/"
 TSF = "https://www.tsf.org.tr/"
 MAX_CR_TOURNAMENTS = 80
-DEBUG = "--debug" in sys.argv
 
 session = requests.Session()
 session.headers["User-Agent"] = "SatrancTurnuvalari/0.1 (+https://github.com/alaattinyucenursen-coder/TURNUVA-B-LG-S-)"
@@ -38,6 +37,13 @@ Edirne Elazığ Erzincan Erzurum Eskişehir Gaziantep Giresun Gümüşhane Hakka
 Kahramanmaraş Karabük Karaman Kars Kastamonu Kayseri Kilis Kırıkkale Kırklareli Kırşehir Kocaeli Konya Kütahya
 Malatya Manisa Mardin Mersin Muğla Muş Nevşehir Niğde Ordu Osmaniye Rize Sakarya Samsun Şanlıurfa Siirt Sinop
 Sivas Şırnak Tekirdağ Tokat Trabzon Tunceli Uşak Van Yalova Yozgat Zonguldak""".split()
+
+# Turnuva adlarında sık geçen ilçeler
+DISTRICTS = {"Akhisar": "Manisa", "Manavgat": "Antalya", "Alanya": "Antalya", "Torbalı": "İzmir",
+             "Anamur": "Mersin", "Tarsus": "Mersin", "Köyceğiz": "Muğla", "Bodrum": "Muğla",
+             "Fethiye": "Muğla", "Burhaniye": "Balıkesir", "Ürgüp": "Nevşehir", "Çubuk": "Ankara",
+             "Kuşadası": "Aydın", "Didim": "Aydın", "Çorlu": "Tekirdağ", "İnegöl": "Bursa",
+             "Ereğli": "Zonguldak", "Iskenderun": "Hatay", "İskenderun": "Hatay"}
 
 TR_MONTHS = {m: i for i, m in enumerate(
     "ocak şubat mart nisan mayıs haziran temmuz ağustos eylül ekim kasım aralık".split(), 1)}
@@ -59,10 +65,12 @@ def upper_tr(s):
 
 
 def find_city(*texts):
-    blob = upper_tr(" ".join(t for t in texts if t))
-    for p in PROVINCES:
-        if re.search(r"\b" + re.escape(upper_tr(p)) + r"\b", blob):
-            return p
+    """İl adını sırayla verilen metinlerde arar; önce turnuva adı gelmeli."""
+    for t in texts:
+        blob = upper_tr(t or "")
+        for name, prov in [(p, p) for p in PROVINCES] + list(DISTRICTS.items()):
+            if re.search(r"(?<!\w)" + re.escape(upper_tr(name)) + r"(?!\w)", blob):
+                return prov
     return ""
 
 
@@ -92,12 +100,6 @@ def cr_list():
 def cr_details(tnr):
     url = f"{CR}tnr{tnr}.aspx?lan=1&turdet=YES"
     soup = get(url)
-    if DEBUG and tnr == DEBUG_TNR[0]:
-        log("---- DEBUG detay sayfası ----")
-        for tr in soup.select("table tr")[:40]:
-            log(" | ".join(td.get_text(" ", strip=True) for td in tr.find_all(["td", "th"]))[:200])
-        for sel in soup.select("select"):
-            log("SELECT", sel.get("name"), [o.get_text(strip=True) for o in sel.find_all("option")][:10])
     name = ""
     h2 = soup.find("h2")
     if h2:
@@ -117,12 +119,6 @@ def cr_details(tnr):
         return ""
 
     dates = parse_dates(pick("date"))
-    # Aynı turnuvanın diğer kategorileri (chess-results'ta her kategori ayrı turnuvadır)
-    siblings = {}
-    for a in soup.select("a[href]"):
-        m = re.search(r"tnr(\d+)\.aspx\?lan=1&art=0", a["href"], re.I)
-        if m:
-            siblings[m.group(1)] = a.get_text(" ", strip=True)
     return {
         "tnr": tnr,
         "name": name,
@@ -132,18 +128,26 @@ def cr_details(tnr):
         "timeControl": pick("time control"),
         "start": dates[0] if dates else None,
         "end": dates[-1] if dates else None,
-        "siblings": siblings,
     }
 
 
 def split_category(name):
     """'... TURNUVASI 08 YAŞ VE ALTI KATEGORİSİ' -> ('... TURNUVASI', '08 YAŞ VE ALTI')"""
+    name = re.sub(r"[_\s]+", " ", name).strip()
     m = re.search(r"(TURNUVASI|ŞAMPİYONASI|BİRİNCİLİĞİ|LİGİ)\s+(.+)$", name, re.I)
-    if m:
-        base = name[: m.end(1)]
-        cat = re.sub(r"\s*KATEGORİSİ\s*", " ", m.group(2), flags=re.I).strip()
-        return base.strip(), cat
-    return name.strip(), ""
+    if not m:
+        return name, ""
+    cat = re.sub(r"\b(KATEGORİSİ|KATEGORİ|KTG)\b\.?", " ", m.group(2), flags=re.I)
+    words = []
+    for w in cat.split():
+        if not words or w.lower() != words[-1].lower():  # "U8 U8" gibi tekrarları at
+            words.append(w)
+    return name[: m.end(1)].strip(), " ".join(words)
+
+
+def category_order(c):
+    m = re.search(r"\d+", c["name"])
+    return (0, int(m.group()), c["name"]) if m else (1, 0, c["name"])
 
 
 def title_tr(s):
@@ -190,6 +194,8 @@ def collect_cr(today):
         g["categories"].append({"name": title_tr(cat) or "Genel",
                                 "url": f"{CR}tnr{tnr}.aspx?lan=1"})
         log(f"  + {d['name']} ({d['start']})")
+    for g in groups.values():
+        g["categories"].sort(key=category_order)
     return list(groups.values())
 
 
@@ -197,53 +203,46 @@ def collect_cr(today):
 
 def collect_tsf(today):
     soup = get(TSF + "takvim")
-    if DEBUG:
-        log("---- DEBUG TSF takvim ----")
-        a = soup.select_one("a[href*='/etkinlik/']")
-        if a:
-            box = a.find_parent(["article", "li", "div"])
-            log(str(box)[:2500])
-    events = {}
-    for a in soup.select("a[href*='/etkinlik/']"):
-        m = re.search(r"/etkinlik/(\d+)", a["href"])
-        if not m or m.group(1) in events:
-            continue
-        box = a.find_parent(["article", "li"]) or a.find_parent("div")
-        text = box.get_text(" ", strip=True) if box else a.get_text(" ", strip=True)
-        events[m.group(1)] = (urljoin(TSF, a["href"]), a.get_text(" ", strip=True), text)
-
     out = []
-    for eid, (url, title, text) in events.items():
-        try:
-            page = get(url)
-        except Exception as e:
-            log(f"  TSF {eid}: hata {e}")
+    for row in soup.select("a.event-row[href*='/etkinlik/']"):
+        eid = re.search(r"/etkinlik/(\d+)", row["href"]).group(1)
+        h3, p = row.find("h3"), row.find("p")
+        if not h3 or not p:
             continue
-        h1 = page.find("h1")
-        name = h1.get_text(" ", strip=True) if h1 else title
-        body = page.get_text(" ", strip=True)
-        dates = tr_dates(body)
-        if not dates:
+        name = h3.get_text(" ", strip=True)
+        if "sezon" in name.lower():
             continue
-        start, end = dates[0], dates[-1] if len(dates) > 1 else dates[0]
-        if end < today:
+        when, _, place = p.get_text(" ", strip=True).partition("·")
+        place = place.strip()
+        dates = tr_dates(when)
+        if not dates or dates[-1] < today:
             continue
-        intl = "uluslararası" in body.lower() and "ulusal etkinlik" not in body.lower()
-        site = page.select_one("a[href*='.tsf.org.tr']:not([href*='www.tsf'])")
-        out.append({
+        city = find_city(name, place)
+        intl = bool(re.search(r"avrupa|dünya|uluslararası|balkan|olimpiyat", name, re.I)) or (place and not city)
+        url = urljoin(TSF, row["href"])
+        t = {
             "id": f"tsf-{eid}",
             "name": name,
-            "city": find_city(name, text),
-            "start": start.isoformat(),
-            "end": end.isoformat(),
+            "city": city if not intl else place,
+            "start": dates[0].isoformat(),
+            "end": dates[-1].isoformat(),
             "type": "uluslararası" if intl else "ulusal",
             "categories": [],
             "prizes": [],
             "regulation": url,
-            **({"website": site["href"]} if site else {}),
             "source": "tsf",
-        })
-        log(f"  + TSF {name} ({start})")
+        }
+        if not intl:
+            # Türkiye şampiyonası gibi etkinliklerin ayrı organizasyon sitesi olabiliyor
+            try:
+                for a in get(url).select("a[href^='http']"):
+                    if "organizasyon sitesi" in a.get_text(" ", strip=True).lower():
+                        t["website"] = a["href"]
+                        break
+            except Exception as e:
+                log(f"  TSF {eid}: hata {e}")
+        out.append(t)
+        log(f"  + TSF {name} ({dates[0]})")
     return out
 
 
@@ -288,14 +287,5 @@ def main():
     log(f"Toplam {len(tournaments)} turnuva yazıldı.")
 
 
-DEBUG_TNR = [None]
-
 if __name__ == "__main__":
-    if DEBUG:
-        _orig = cr_list
-
-        def cr_list():  # noqa: F811
-            ids = _orig()
-            DEBUG_TNR[0] = ids[0] if ids else None
-            return ids
     main()

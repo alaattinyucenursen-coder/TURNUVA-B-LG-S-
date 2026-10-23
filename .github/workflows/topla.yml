@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
-      - run: python scripts/topla.py --debug
+      - run: python scripts/topla.py
       - name: Değişiklik varsa kaydet
         run: |
           git config user.name "turnuva-botu"
