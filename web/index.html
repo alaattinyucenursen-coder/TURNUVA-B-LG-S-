@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satranç Turnuvaları</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1f2937">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>♞ Satranç Turnuvaları</h1>
+    <p class="sub">TSF turnuvaları tek yerde</p>
+  </header>
+
+  <section class="filters">
+    <input id="q" type="search" placeholder="Turnuva ara">
+    <select id="city"><option value="">Tüm iller</option></select>
+    <select id="type">
+      <option value="">Tüm türler</option>
+      <option value="il">İl turnuvası</option>
+      <option value="ulusal">Ulusal</option>
+      <option value="uluslararası">Uluslararası</option>
+    </select>
+    <input id="cat" type="search" placeholder="Kategori (ör. 10 Yaş)">
+  </section>
+
+  <main id="list"></main>
+  <footer id="updated"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

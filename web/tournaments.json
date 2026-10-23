@@ -1,0 +1,70 @@
+{
+  "updated": "2026-10-23T12:00:00Z",
+  "note": "Örnek veri. Ödül bilgileri gerçek yönergelerden toplanana kadar temsilidir.",
+  "tournaments": [
+    {
+      "id": "cr-1525177",
+      "name": "29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Tokat",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "35'+30\"",
+      "rounds": 6,
+      "categories": [
+        { "name": "08 Yaş ve Altı", "url": "https://chess-results.com/tnr1525177.aspx?lan=1" },
+        { "name": "10 Yaş", "url": "https://chess-results.com/tnr1525179.aspx?lan=1" },
+        { "name": "14 Yaş", "url": "https://chess-results.com/tnr1525180.aspx?lan=1" },
+        { "name": "Açık", "url": "https://chess-results.com/tnr1525182.aspx?lan=1" }
+      ],
+      "prizes": ["Her kategoride ilk 3'e kupa ve madalya"],
+      "regulation": "http://www.tokat.tsf.org.tr",
+      "registration": "https://www.tokat.tsf.org.tr/turnuva-kayit-form"
+    },
+    {
+      "id": "tsf-1068",
+      "name": "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
+      "city": "Mersin",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1068"
+    },
+    {
+      "id": "tsf-1052",
+      "name": "2026 - 2027 Türkiye Kupası",
+      "city": "",
+      "start": "2026-11-14",
+      "end": "2026-11-21",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1052"
+    },
+    {
+      "id": "tsf-1067",
+      "name": "2026 Türkiye Şampiyonası",
+      "city": "",
+      "start": "2026-12-03",
+      "end": "2026-12-14",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1067",
+      "website": "https://tr2026.tsf.org.tr/"
+    },
+    {
+      "id": "tsf-1077",
+      "name": "Gazi Open Uluslararası Açık Satranç Turnuvası",
+      "city": "Gaziantep",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/turnuva-arsivi/1077"
+    }
+  ]
+}
