@@ -4,18 +4,24 @@ Yol: chess-results'taki "Official Homepage of the Organizer" bağlantısı -> il
 turnuvanın chess-results bağlantısını içeren duyuru -> duyurudaki PDF -> "ÖDÜL" bölümü.
 """
 
-import io
 import re
 from urllib.parse import urljoin
 
-from pypdf import PdfReader
+import pymupdf
 
 MAX_PDF_BYTES = 8_000_000
 PRIZE_WORDS = re.compile(r"kupa|madalya|ödül|plaket|sertifika|belge|tl\b|₺|nakit|hediye|derece|birinci|ikinci|üçüncü|\d\.\s*(?:ye|ya|e|a)\b", re.I)
+GOOD_PDF = re.compile(r"y[öo]?nerge|ynerge|talimat", re.I)
+BAD_PDF = re.compile(r"liste|kay[ıi]?t|kayt|sonu[çc]|e[şs]le[şs]me|s[ıi]ralama|fide|kural", re.I)
+STOP_WORDS = {"SATRANÇ", "TURNUVASI", "2026", "2027", "EKİM", "BAYRAMI"}
 
 
 def _upper(s):
     return s.replace("i", "İ").replace("ı", "I").upper()
+
+
+def _is_pdf(href):
+    return href.lower().split("?")[0].endswith(".pdf")
 
 
 class YonergeBulucu:
@@ -34,76 +40,82 @@ class YonergeBulucu:
                 self.pages[url] = None
         return self.pages[url]
 
-    def _pdfs_near(self, node, base):
-        """Bir bağlantının çevresindeki (aynı duyurudaki) PDF bağlantılarını bulur."""
+    def _rank(self, links, base, name):
+        """PDF bağlantılarını yönerge olma olasılığına göre sıralar."""
+        words = {w for w in re.findall(r"\w{4,}", _upper(name)) if w not in STOP_WORDS}
+        scored = []
+        for a in links:
+            label = a["href"] + " " + a.get_text(" ", strip=True)
+            score = 3 * bool(GOOD_PDF.search(label)) - 5 * bool(BAD_PDF.search(label))
+            score += sum(w in _upper(label) for w in words)
+            scored.append((score, urljoin(base, a["href"])))
+        return [u for s, u in sorted(scored, key=lambda x: -x[0]) if s > -3]
+
+    def _candidates_near(self, node, base, name):
+        """Bir bağlantının çevresindeki (aynı duyurudaki) PDF'leri ya da duyuru sayfasını bulur."""
         for _ in range(6):
             node = node.parent
             if node is None:
-                return [], None
-            pdfs = [urljoin(base, a["href"]) for a in node.select("a[href]")
-                    if a["href"].lower().split("?")[0].endswith(".pdf")]
+                break
+            pdfs = [a for a in node.select("a[href]") if _is_pdf(a["href"])]
             if pdfs:
-                return pdfs, None
+                return self._rank(pdfs, base, name)
             more = [a for a in node.select("a[href]")
                     if re.search(r"devam|detay|oku", a.get_text(" ", strip=True), re.I)]
             if more:
-                return [], urljoin(base, more[0]["href"])
-        return [], None
+                return self._pdfs_on(urljoin(base, more[0]["href"]), name)
+        return []
 
-    def find_pdf(self, homepage, tnr_ids, name):
+    def _pdfs_on(self, url, name):
+        if _is_pdf(url):
+            return [url]
+        page = self._page(url)
+        if page is None:
+            return []
+        return self._rank([a for a in page.select("a[href]") if _is_pdf(a["href"])], url, name)
+
+    def candidates(self, homepage, tnr_ids, name):
         soup = self._page(homepage)
         if soup is None:
-            return None
+            return []
         # 1) Turnuvanın chess-results bağlantısını içeren duyuru
-        for a in soup.select("a[href*='tnr']"):
-            m = re.search(r"tnr(\d+)", a["href"])
+        for a in soup.select("a[href]"):
+            m = re.search(r"tnr(\d+)", a["href"], re.I)
             if m and m.group(1) in tnr_ids:
-                pdfs, article = self._pdfs_near(a, homepage)
-                if pdfs:
-                    return pdfs[0]
-                if article:
-                    page = self._page(article)
-                    if page:
-                        pdfs = [urljoin(article, x["href"]) for x in page.select("a[href]")
-                                if x["href"].lower().split("?")[0].endswith(".pdf")]
-                        if pdfs:
-                            return pdfs[0]
+                found = self._candidates_near(a, homepage, name)
+                if found:
+                    return found
         # 2) Başlığı turnuva adına benzeyen duyuru
-        words = {w for w in re.findall(r"\w{4,}", _upper(name)) if w not in {"SATRANÇ", "TURNUVASI", "2026", "2027"}}
+        words = {w for w in re.findall(r"\w{4,}", _upper(name)) if w not in STOP_WORDS}
         best, score = None, 0
         for a in soup.select("a[href]"):
-            text = _upper(a.get_text(" ", strip=True))
-            s = sum(w in text for w in words)
-            if s > score and len(words) and s >= max(2, len(words) // 2):
+            s = sum(w in _upper(a.get_text(" ", strip=True)) for w in words)
+            if s > score and s >= max(1, len(words) // 2):
                 best, score = urljoin(homepage, a["href"]), s
-        if best:
-            if best.lower().split("?")[0].endswith(".pdf"):
-                return best
-            page = self._page(best)
-            if page:
-                for x in page.select("a[href]"):
-                    if x["href"].lower().split("?")[0].endswith(".pdf"):
-                        return urljoin(best, x["href"])
-        return None
+        return self._pdfs_on(best, name) if best else []
 
     def prizes(self, homepage, tnr_ids, name):
-        pdf = self.find_pdf(homepage, tnr_ids, name)
-        if not pdf:
+        cands = self.candidates(homepage, tnr_ids, name)
+        if not cands:
             self.log(f"    yönerge bulunamadı ({homepage})")
             return None, []
-        try:
-            data = self.fetch_bytes(pdf, MAX_PDF_BYTES)
-            text = "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(data)).pages)
-        except Exception as e:
-            self.log(f"    PDF okunamadı {pdf}: {e}")
-            return pdf, []
-        found = extract_prizes(text)
-        self.log(f"    yönerge: {pdf} -> {len(found)} ödül satırı")
-        return pdf, found
+        for pdf in cands[:3]:
+            try:
+                data = self.fetch_bytes(pdf, MAX_PDF_BYTES)
+                with pymupdf.open(stream=data, filetype="pdf") as doc:
+                    text = "\n".join(page.get_text() for page in doc)
+            except Exception as e:
+                self.log(f"    PDF okunamadı {pdf}: {e}")
+                continue
+            found = extract_prizes(text)
+            self.log(f"    yönerge: {pdf} -> {found}")
+            return pdf, found
+        return None, []
 
 
 def extract_prizes(text):
-    """Yönerge metnindeki ödül bölümünü kısa satırlar halinde döndürür."""
+    """Yönerge metnindeki ödül bölümünü kısa cümleler halinde döndürür."""
+    text = re.sub(r"[-]", " ", text)  # PDF'teki özel madde imleri
     lines = [re.sub(r"\s+", " ", l).strip() for l in text.splitlines()]
     lines = [l for l in lines if l]
     start = None
@@ -113,7 +125,9 @@ def extract_prizes(text):
             break
     if start is None:
         return []
-    section = []
+    # Başlık satırında ödül bilgisi de olabilir ("ÖDÜLLER: Her kategoride ilk 3...")
+    head = re.split(r"ÖDÜL\w*\s*:?", lines[start], maxsplit=1, flags=re.I)[-1].strip()
+    section = [head] if head else []
     for l in lines[start + 1:start + 25]:
         # Yeni bir başlığa geldiysek dur ("9- İTİRAZLAR", "KURALLAR:" gibi)
         if re.match(r"^\d{1,2}\s*[-.)]\s*[A-ZÇĞİÖŞÜ /]{4,}:?$", l) or (l.isupper() and l.endswith(":") and not PRIZE_WORDS.search(l)):
@@ -121,5 +135,5 @@ def extract_prizes(text):
         section.append(l)
     # Satır sonları PDF'te rastgele; cümlelere göre yeniden böl
     parts = re.split(r"(?<=[.!])\s+(?=[A-ZÇĞİÖŞÜ0-9])|\s+(?=[-•*]\s)", " ".join(section))
-    out = [p.lstrip("-•* ").strip()[:200] for p in parts]
+    out = [p.lstrip("-•*; ").strip()[:200] for p in parts]
     return [p for p in out if PRIZE_WORDS.search(p)][:8]
