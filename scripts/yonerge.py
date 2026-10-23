@@ -143,10 +143,13 @@ def _section(lines, start):
         section.append(l)
     # Satır sonları PDF'te rastgele; cümlelere göre yeniden böl
     parts = re.split(r"(?<=[.!])\s+(?=[A-ZÇĞİÖŞÜ0-9])|\s+(?=[-•*]\s)", " ".join(section))
-    out = []
+    out, prefix = [], ""
     for p in parts:
         p = re.sub(r"^(\d+(\.\d+)*[.)-]?\s+)", "", p.lstrip("-•*; ")).strip()
         p = re.sub(r"^(Temel\s+)?Ödüller\s*:?\s*", "", p, flags=re.I)
-        if p and PRIZE_WORDS.search(p) and not GENERIC.search(p):
-            out.append(p[:200])
+        if p.endswith((";", ":")) and not PRIZE_WORDS.search(p):
+            prefix = p  # "Her Kategoride;" gibi ön ek, ilk ödül satırına eklenir
+        elif p and PRIZE_WORDS.search(p) and not GENERIC.search(p):
+            out.append((prefix + " " + p).strip()[:200])
+            prefix = ""
     return out[:8]
