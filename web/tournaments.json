@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T13:12:17+00:00",
+  "updated": "2026-10-23T13:18:38+00:00",
   "tournaments": [
     {
       "id": "tsf-1062",
@@ -90,7 +90,11 @@
           "url": "https://chess-results.com/tnr1525161.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "Temel Ödüller Her Kategoride;",
+        "İlk dört dereceyi elde eden sporculara Madalya,",
+        "En iyi dereceyi elde eden kadın sporcuya Madalya verilecektir."
+      ],
       "source": "chess-results",
       "regulation": "http://burdur.tsf.org.tr/images/2025-2026/29_Ekim/BURDUR_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
     },
@@ -273,7 +277,7 @@
       ],
       "prizes": [],
       "source": "chess-results",
-      "regulation": "http://antalya.tsf.org.tr/images/2026Ant-.ENCAN/Antalya_brahim_encan_7._An_Satran_Turnuvas.pdf"
+      "regulation": "http://antalya.tsf.org.tr/images/2026Ant29Ekim/ANTALYA_29_EKM_CUMHURYET_BAYRAMI_ELO_SATRAN_TURNUVASI_YNERGES.pdf"
     },
     {
       "id": "cr-1524667",
@@ -304,7 +308,7 @@
       ],
       "prizes": [],
       "source": "chess-results",
-      "regulation": "http://www.elazig.tsf.org.tr/images/2026/29_ekim_2026/2026_ELAZI_CUMHURYET_KUPASI_ELO_SATRAN_TURNUVASI.pdf"
+      "regulation": "http://www.elazig.tsf.org.tr/images/2026/29_ekim_2026/2026_Cumhuriyet_Kupas_Satran_Turnuvas.pdf"
     },
     {
       "id": "cr-1524658",
@@ -329,9 +333,13 @@
           "url": "https://chess-results.com/tnr1524658.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "5.1 Her kategoride İlk üç dereceyi elde eden sporculara Madalya verilecektir.",
+        "5.3 Turnuva direktörü aksi yönde karar vermemişse, ödül törenine katılmayan sporcular hak iddia edemezler.",
+        "5.4 Sporcular hak ettikleri ödüllerin tamamını alır."
+      ],
       "source": "chess-results",
-      "regulation": "http://www.mersin.tsf.org.tr/images/29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
+      "regulation": "http://www.mersin.tsf.org.tr/images/CUMHURYET_BAYRAMI_BOZYAZI-ANAMUR_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1524607",
@@ -356,7 +364,11 @@
           "url": "https://chess-results.com/tnr1524599.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "Temel Ödüller Her Kategoride;",
+        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "İlk beş dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir."
+      ],
       "source": "chess-results",
       "regulation": "http://Yalova.tsf.org.tr/images/YALOVA_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
     },
@@ -376,7 +388,7 @@
         }
       ],
       "prizes": [
-        "TemelÖdüller HerKategoride;  İlk üç dereceyi elde eden sporcularave ayrıca her kategoride ilk 3 dereceyi elde eden kadın sporculara Madalyaverilecektir."
+        "Temel Ödüller Her Kategoride; İlk üç dereceyi elde eden sporculara ve ayrıca her kategoride ilk 3 dereceyi elde eden kadın sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
       "regulation": "http://www.malatya.tsf.org.tr/images/MALATYA_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_1.pdf"
@@ -460,9 +472,13 @@
           "url": "https://chess-results.com/tnr1524950.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "Temel Ödüller Her Kategoride;",
+        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "İlk on dereceyi elde eden sporculara Madalya verilecektir."
+      ],
       "source": "chess-results",
-      "regulation": "http://www.eskisehir.tsf.org.tr/images/2027/ebb/Kayt_listesi.pdf"
+      "regulation": "http://www.eskisehir.tsf.org.tr/images/2027/ebb/ESKEHR_BYKEHR_BELEDYES_GELENEKSEL_CUMHURYERT_KUPASISATRAN_TURNUVASI.pdf"
     },
     {
       "id": "tsf-1067",
