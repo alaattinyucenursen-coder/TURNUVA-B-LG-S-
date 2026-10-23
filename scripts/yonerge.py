@@ -109,6 +109,10 @@ class YonergeBulucu:
                 continue
             found = extract_prizes(text)
             self.log(f"    yönerge: {pdf} -> {found}")
+            if not found:
+                i = _upper(text).find("ÖDÜL")
+                snippet = text[max(0, i - 100):i + 500] if i >= 0 else text[:300]
+                self.log(f"    ödül bölümü okunamadı ({len(text)} karakter): {snippet!r}")
             return pdf, found
         return None, []
 
