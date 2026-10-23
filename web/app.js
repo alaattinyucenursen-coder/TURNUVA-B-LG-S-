@@ -46,10 +46,21 @@ function render() {
   $("list").innerHTML = rows.length ? rows.map(card).join("") : '<p class="muted">Bu filtrelere uyan turnuva yok.</p>';
 }
 
+// Mobil uygulamada liste her açılışta siteden indirilir; internet yoksa uygulamadaki kopya kullanılır.
+const native = window.Capacitor?.isNativePlatform?.();
+const LIST_URL = native ? "https://alaattinyucenursen-coder.github.io/TURNUVA-B-LG-S-/tournaments.json" : "tournaments.json";
+
+async function fetchList() {
+  try {
+    const res = await fetch(LIST_URL, { cache: "no-store" });
+    if (res.ok) return await res.json();
+  } catch (e) {}
+  return (await fetch("tournaments.json")).json();
+}
+
 async function load() {
   // Her açılışta güncel listeyi çeker; yeni turnuvalar eklenir, bitenler düşer.
-  const res = await fetch("tournaments.json", { cache: "no-store" });
-  const data = await res.json();
+  const data = await fetchList();
   all = data.tournaments.filter(isActive).sort((a, b) => a.start.localeCompare(b.start));
   const cities = [...new Set(all.map((t) => t.city).filter(Boolean))].sort((a, b) => a.localeCompare(b, "tr"));
   $("city").innerHTML = '<option value="">Tüm iller</option>' + cities.map((c) => `<option>${c}</option>`).join("");
@@ -59,3 +70,6 @@ async function load() {
 
 ["q", "city", "type", "cat"].forEach((id) => $(id).addEventListener("input", render));
 load();
+
+// Yeni ve yaklaşan turnuva bildirimleri için izin iste (Android 13+ ve iOS)
+if (native) window.Capacitor.Plugins.BackgroundRunner?.requestPermissions({ apis: ["notifications"] }).catch(() => {});
