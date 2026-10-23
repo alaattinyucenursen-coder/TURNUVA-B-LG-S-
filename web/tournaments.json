@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T13:25:07+00:00",
+  "updated": "2026-10-23T13:28:03+00:00",
   "tournaments": [
     {
       "id": "tsf-1062",
@@ -36,7 +36,7 @@
       "source": "chess-results"
     },
     {
-      "id": "cr-1525177",
+      "id": "cr-1525179",
       "name": "29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
       "city": "Tokat",
       "start": "2026-10-24",
@@ -63,9 +63,7 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results",
-      "registration": "https://www.tokat.tsf.org.tr/turnuva-kayit-form",
-      "regulation": "http://www.tokat.tsf.org.tr"
+      "source": "chess-results"
     },
     {
       "id": "cr-1525163",
@@ -91,7 +89,7 @@
         }
       ],
       "prizes": [
-        "İlk dört dereceyi elde eden sporculara Madalya,",
+        "Her Kategoride; İlk dört dereceyi elde eden sporculara Madalya,",
         "En iyi dereceyi elde eden kadın sporcuya Madalya verilecektir."
       ],
       "source": "chess-results",
@@ -195,7 +193,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Madalya verilecektir."
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
       "regulation": "http://antalya.tsf.org.tr/images/2026Manavgat/MANAVGAT_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_YNERGES.pdf"
@@ -220,7 +218,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa ve Madalya,",
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa ve Madalya,",
         "En iyi dereceyi elde eden üç kadın sporcuya Kupa ve Madalya,",
         "İlk üç dereceyi elde eden Yerel Sporculara Kupa ve Madalya verilecektir. (Yerel sporcu ödülünden yararlanabilmek için sporcuların Torbalı'da öğrenim gördüklerini gösteren Öğrenci Belgesi'ni kayıt kont",
         "Açık kategoride yarışan yerel sporculardan ise ikamet belgesi ibraz etmeleri istenecektir.)"
@@ -282,7 +280,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
         "En iyi kadın sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
@@ -316,7 +314,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
         "İlk beş dereceyi elde eden sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
@@ -375,7 +373,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
         "İlk beş dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir."
       ],
       "source": "chess-results",
@@ -482,7 +480,7 @@
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
         "İlk on dereceyi elde eden sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
