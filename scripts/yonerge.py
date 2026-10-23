@@ -12,7 +12,9 @@ import pymupdf
 MAX_PDF_BYTES = 8_000_000
 PRIZE_WORDS = re.compile(r"kupa|madalya|ödül|plaket|sertifika|belge|tl\b|₺|nakit|hediye|derece|birinci|ikinci|üçüncü|\d\.\s*(?:ye|ya|e|a)\b", re.I)
 GOOD_PDF = re.compile(r"y[öo]?nerge|ynerge|talimat", re.I)
-BAD_PDF = re.compile(r"liste|kay[ıi]?t|kayt|sonu[çc]|e[şs]le[şs]me|s[ıi]ralama|fide|kural", re.I)
+BAD_PDF = re.compile(r"liste|kay[ıi]?t|kayt|sonu[çc]|e[şs]le[şs]me|s[ıi]ralama|fide|kural|hakem|g[öo]revlendirme", re.I)
+# Ödül bölümünde geçen ama ödülü anlatmayan genel kurallar
+GENERIC = re.compile(r"tören|hak iddia|tamamını alır|birden fazla|paylaştırıl|devredil", re.I)
 STOP_WORDS = {"SATRANÇ", "TURNUVASI", "2026", "2027", "EKİM", "BAYRAMI"}
 
 
@@ -99,6 +101,7 @@ class YonergeBulucu:
         if not cands:
             self.log(f"    yönerge bulunamadı ({homepage})")
             return None, []
+        first = None
         for pdf in cands[:3]:
             try:
                 data = self.fetch_bytes(pdf, MAX_PDF_BYTES)
@@ -109,12 +112,10 @@ class YonergeBulucu:
                 continue
             found = extract_prizes(text)
             self.log(f"    yönerge: {pdf} -> {found}")
-            if not found:
-                i = _upper(text).find("ÖDÜL")
-                snippet = text[max(0, i - 100):i + 500] if i >= 0 else text[:300]
-                self.log(f"    ödül bölümü okunamadı ({len(text)} karakter): {snippet!r}")
-            return pdf, found
-        return None, []
+            if found:
+                return pdf, found
+            first = first or pdf
+        return first, []
 
 
 def extract_prizes(text):
@@ -122,13 +123,16 @@ def extract_prizes(text):
     text = re.sub(r"[-]", " ", text)  # PDF'teki özel madde imleri
     lines = [re.sub(r"\s+", " ", l).strip() for l in text.splitlines()]
     lines = [l for l in lines if l]
-    start = None
     for i, l in enumerate(lines):
-        if re.search(r"ÖDÜL", _upper(l)) and len(l) < 80:
-            start = i
-            break
-    if start is None:
-        return []
+        # "Ödül Töreni" gibi program satırlarını atla; ödül anlatan ilk bölümü al
+        if re.search(r"ÖDÜL", _upper(l)) and len(l) < 80 and not re.search(r"TÖREN", _upper(l)):
+            found = _section(lines, i)
+            if found:
+                return found
+    return []
+
+
+def _section(lines, start):
     # Başlık satırında ödül bilgisi de olabilir ("ÖDÜLLER: Her kategoride ilk 3...")
     head = re.split(r"ÖDÜL\w*\s*:?", lines[start], maxsplit=1, flags=re.I)[-1].strip()
     section = [head] if head else []
@@ -139,5 +143,10 @@ def extract_prizes(text):
         section.append(l)
     # Satır sonları PDF'te rastgele; cümlelere göre yeniden böl
     parts = re.split(r"(?<=[.!])\s+(?=[A-ZÇĞİÖŞÜ0-9])|\s+(?=[-•*]\s)", " ".join(section))
-    out = [p.lstrip("-•*; ").strip()[:200] for p in parts]
-    return [p for p in out if PRIZE_WORDS.search(p)][:8]
+    out = []
+    for p in parts:
+        p = re.sub(r"^(\d+(\.\d+)*[.)-]?\s+)", "", p.lstrip("-•*; ")).strip()
+        p = re.sub(r"^(Temel\s+)?Ödüller\s*:?\s*", "", p, flags=re.I)
+        if p and PRIZE_WORDS.search(p) and not GENERIC.search(p):
+            out.append(p[:200])
+    return out[:8]
