@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T12:57:10+00:00",
+  "updated": "2026-10-23T13:02:02+00:00",
   "tournaments": [
     {
       "id": "tsf-1062",
@@ -503,18 +503,6 @@
       "source": "tsf"
     },
     {
-      "id": "tsf-1093",
-      "name": "2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili",
-      "city": "",
-      "start": "2027-01-25",
-      "end": "2027-02-05",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1093",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1091",
       "name": "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları",
       "city": "",
@@ -524,30 +512,6 @@
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1091",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1095",
-      "name": "2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili",
-      "city": "",
-      "start": "2027-03-08",
-      "end": "2027-03-12",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1095",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1094",
-      "name": "Ramazan Bayramı",
-      "city": "",
-      "start": "2027-03-09",
-      "end": "2027-03-11",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1094",
       "source": "tsf"
     },
     {
@@ -599,18 +563,6 @@
       "source": "tsf"
     },
     {
-      "id": "tsf-1100",
-      "name": "Ulusal Egemenlik ve Çocuk Bayramı",
-      "city": "",
-      "start": "2027-04-23",
-      "end": "2027-04-23",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1100",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1102",
       "name": "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası",
       "city": "",
@@ -623,18 +575,6 @@
       "source": "tsf"
     },
     {
-      "id": "tsf-1101",
-      "name": "Emek ve Dayanışma Günü",
-      "city": "",
-      "start": "2027-05-01",
-      "end": "2027-05-01",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1101",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1121",
       "name": "Avrupa Bireysel Satranç Şampiyonası",
       "city": "Gürcistan - Batum",
@@ -644,30 +584,6 @@
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1121",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1103",
-      "name": "Kurban Bayramı",
-      "city": "",
-      "start": "2027-05-15",
-      "end": "2027-05-19",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1103",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1104",
-      "name": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
-      "city": "",
-      "start": "2027-05-19",
-      "end": "2027-05-19",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1104",
       "source": "tsf"
     },
     {
@@ -695,18 +611,6 @@
       "source": "tsf"
     },
     {
-      "id": "tsf-1107",
-      "name": "2026 - 2027 Eğitim - Öğretim Yılı Bitişi",
-      "city": "",
-      "start": "2027-06-25",
-      "end": "2027-06-25",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1107",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1122",
       "name": "2027 Avrupa Genç Takımlar Satranç Şampiyonası",
       "city": "Romanya - Mamaia",
@@ -716,30 +620,6 @@
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1122",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1108",
-      "name": "Demokrasi ve Milli Birlik Günü",
-      "city": "",
-      "start": "2027-07-15",
-      "end": "2027-07-15",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1108",
-      "source": "tsf"
-    },
-    {
-      "id": "tsf-1115",
-      "name": "30 Ağustos Zafer Bayramı",
-      "city": "",
-      "start": "2027-08-30",
-      "end": "2027-08-30",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1115",
       "source": "tsf"
     },
     {
