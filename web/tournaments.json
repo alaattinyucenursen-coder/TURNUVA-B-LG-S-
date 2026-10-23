@@ -1,22 +1,10 @@
 {
-  "updated": "2026-10-23T12:50:37+00:00",
+  "updated": "2026-10-23T12:57:10+00:00",
   "tournaments": [
     {
-      "id": "tsf-1117",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
-      "start": "2026-09-16",
-      "end": "2027-09-15",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1117",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1062",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Avrupa Kulüpler Kupası",
+      "city": "Karadağ - Budva",
       "start": "2026-10-16",
       "end": "2026-10-24",
       "type": "uluslararası",
@@ -36,12 +24,12 @@
       "rounds": 6,
       "categories": [
         {
-          "name": "B Grubu",
-          "url": "https://chess-results.com/tnr1525017.aspx?lan=1"
-        },
-        {
           "name": "A Grubu",
           "url": "https://chess-results.com/tnr1525016.aspx?lan=1"
+        },
+        {
+          "name": "B Grubu",
+          "url": "https://chess-results.com/tnr1525017.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -90,15 +78,15 @@
       "rounds": 5,
       "categories": [
         {
-          "name": "14 Yaş",
-          "url": "https://chess-results.com/tnr1525163.aspx?lan=1"
-        },
-        {
           "name": "10 Yaş",
           "url": "https://chess-results.com/tnr1525162.aspx?lan=1"
         },
         {
-          "name": "Açık Kategori",
+          "name": "14 Yaş",
+          "url": "https://chess-results.com/tnr1525163.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
           "url": "https://chess-results.com/tnr1525161.aspx?lan=1"
         }
       ],
@@ -116,20 +104,20 @@
       "rounds": 5,
       "categories": [
         {
-          "name": "16 Yaşaltı 2011-2014",
-          "url": "https://chess-results.com/tnr1525132.aspx?lan=1"
-        },
-        {
-          "name": "12 Yaş Altı 2015-2016",
-          "url": "https://chess-results.com/tnr1525127.aspx?lan=1"
+          "name": "8 Yaşaltı",
+          "url": "https://chess-results.com/tnr1525121.aspx?lan=1"
         },
         {
           "name": "10 Yaşaltı",
           "url": "https://chess-results.com/tnr1525125.aspx?lan=1"
         },
         {
-          "name": "8 Yaşaltı",
-          "url": "https://chess-results.com/tnr1525121.aspx?lan=1"
+          "name": "12 Yaş Altı 2015-2016",
+          "url": "https://chess-results.com/tnr1525127.aspx?lan=1"
+        },
+        {
+          "name": "16 Yaşaltı 2011-2014",
+          "url": "https://chess-results.com/tnr1525132.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -146,52 +134,52 @@
       "rounds": 7,
       "categories": [
         {
-          "name": "8 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1524620.aspx?lan=1"
+          "name": "7 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524622.aspx?lan=1"
         },
         {
           "name": "7 Yaş ve Altı Kadın",
           "url": "https://chess-results.com/tnr1524623.aspx?lan=1"
         },
         {
-          "name": "7 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1524622.aspx?lan=1"
+          "name": "8 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524620.aspx?lan=1"
         },
         {
           "name": "8 Yaş ve Altı Kadın",
           "url": "https://chess-results.com/tnr1524621.aspx?lan=1"
         },
         {
-          "name": "9 Yaş ve Altı Kadın",
-          "url": "https://chess-results.com/tnr1524619.aspx?lan=1"
-        },
-        {
           "name": "9 Yaş ve Altı",
           "url": "https://chess-results.com/tnr1524618.aspx?lan=1"
         },
         {
-          "name": "10 Yaş ve Altı Kadın",
-          "url": "https://chess-results.com/tnr1524617.aspx?lan=1"
+          "name": "9 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524619.aspx?lan=1"
         },
         {
           "name": "10 Yaş ve Altı",
           "url": "https://chess-results.com/tnr1524615.aspx?lan=1"
         },
         {
-          "name": "11 Yaş ve Altı Kadın",
-          "url": "https://chess-results.com/tnr1524614.aspx?lan=1"
+          "name": "10 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524617.aspx?lan=1"
         },
         {
           "name": "11 Yaş ve Altı",
           "url": "https://chess-results.com/tnr1524613.aspx?lan=1"
         },
         {
-          "name": "12 Yaş ve Altı Kadın",
-          "url": "https://chess-results.com/tnr1524612.aspx?lan=1"
+          "name": "11 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524614.aspx?lan=1"
         },
         {
           "name": "12 Yaş ve Altı",
           "url": "https://chess-results.com/tnr1524611.aspx?lan=1"
+        },
+        {
+          "name": "12 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524612.aspx?lan=1"
         },
         {
           "name": "Açık Kadın",
@@ -220,7 +208,7 @@
           "url": "https://chess-results.com/tnr1524534.aspx?lan=1"
         },
         {
-          "name": "Açık Kategori [2012 ve Öncesi Doğumlu Sporcular]",
+          "name": "Açık [2012 ve Öncesi Doğumlu Sporcular]",
           "url": "https://chess-results.com/tnr1524536.aspx?lan=1"
         }
       ],
@@ -230,7 +218,7 @@
     {
       "id": "cr-1525024",
       "name": "Köyceğiz 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "İstanbul",
+      "city": "Muğla",
       "start": "2026-10-24",
       "end": "2026-10-25",
       "type": "il",
@@ -238,16 +226,16 @@
       "rounds": 5,
       "categories": [
         {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1525024.aspx?lan=1"
+          "name": "8 Yaş",
+          "url": "https://chess-results.com/tnr1525021.aspx?lan=1"
         },
         {
           "name": "10 Yaş",
           "url": "https://chess-results.com/tnr1525023.aspx?lan=1"
         },
         {
-          "name": "8 Yaş",
-          "url": "https://chess-results.com/tnr1525021.aspx?lan=1"
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1525024.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -264,20 +252,20 @@
       "rounds": 6,
       "categories": [
         {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1524735.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1524734.aspx?lan=1"
-        },
-        {
           "name": "7 Yaş",
           "url": "https://chess-results.com/tnr1524733.aspx?lan=1"
         },
         {
           "name": "8 Yaş",
           "url": "https://chess-results.com/tnr1524732.aspx?lan=1"
+        },
+        {
+          "name": "A",
+          "url": "https://chess-results.com/tnr1524735.aspx?lan=1"
+        },
+        {
+          "name": "B",
+          "url": "https://chess-results.com/tnr1524734.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -298,16 +286,16 @@
           "url": "https://chess-results.com/tnr1524667.aspx?lan=1"
         },
         {
-          "name": "C",
-          "url": "https://chess-results.com/tnr1524666.aspx?lan=1"
+          "name": "A",
+          "url": "https://chess-results.com/tnr1524663.aspx?lan=1"
         },
         {
           "name": "B",
           "url": "https://chess-results.com/tnr1524665.aspx?lan=1"
         },
         {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1524663.aspx?lan=1"
+          "name": "C",
+          "url": "https://chess-results.com/tnr1524666.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -324,16 +312,16 @@
       "rounds": 6,
       "categories": [
         {
-          "name": "Açık (2020 ve Öncesi Doğumlular)",
-          "url": "https://chess-results.com/tnr1524658.aspx?lan=1"
+          "name": "08 Yaş ve Altı (2019-2020 Doğumlular)",
+          "url": "https://chess-results.com/tnr1524653.aspx?lan=1"
         },
         {
           "name": "10 Yaş ve Altı (2017-2018 Doğumlular)",
           "url": "https://chess-results.com/tnr1524656.aspx?lan=1"
         },
         {
-          "name": "08 Yaş ve Altı (2019-2020 Doğumlular)",
-          "url": "https://chess-results.com/tnr1524653.aspx?lan=1"
+          "name": "Açık (2020 ve Öncesi Doğumlular)",
+          "url": "https://chess-results.com/tnr1524658.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -350,16 +338,16 @@
       "rounds": 6,
       "categories": [
         {
+          "name": "U8",
+          "url": "https://chess-results.com/tnr1524600.aspx?lan=1"
+        },
+        {
           "name": "U10",
           "url": "https://chess-results.com/tnr1524607.aspx?lan=1"
         },
         {
           "name": "Açık",
           "url": "https://chess-results.com/tnr1524599.aspx?lan=1"
-        },
-        {
-          "name": "U8 U8",
-          "url": "https://chess-results.com/tnr1524600.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -367,7 +355,7 @@
     },
     {
       "id": "cr-1523858",
-      "name": "Malatya Cumhuriyet Bayramı Satranç Turnuvası_açık Ktg.",
+      "name": "Malatya Cumhuriyet Bayramı Satranç Turnuvası",
       "city": "Malatya",
       "start": "2026-10-24",
       "end": "2026-10-25",
@@ -376,7 +364,7 @@
       "rounds": 5,
       "categories": [
         {
-          "name": "Genel",
+          "name": "Açık",
           "url": "https://chess-results.com/tnr1523858.aspx?lan=1"
         }
       ],
@@ -385,8 +373,8 @@
     },
     {
       "id": "tsf-1068",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
+      "city": "Mersin",
       "start": "2026-11-02",
       "end": "2026-11-08",
       "type": "ulusal",
@@ -397,8 +385,8 @@
     },
     {
       "id": "tsf-1064",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Avrupa Yaş Grupları Satranç Şampiyonası",
+      "city": "Yunanistan - Girit",
       "start": "2026-11-02",
       "end": "2026-11-13",
       "type": "uluslararası",
@@ -409,8 +397,8 @@
     },
     {
       "id": "tsf-1065",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Dünya Emektarlar Satranç Şampiyonası",
+      "city": "Sırbistan - Banja",
       "start": "2026-11-02",
       "end": "2026-11-15",
       "type": "uluslararası",
@@ -421,8 +409,8 @@
     },
     {
       "id": "tsf-1052",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2025 - 2026 Türkiye Kupası",
+      "city": "",
       "start": "2026-11-14",
       "end": "2026-11-21",
       "type": "ulusal",
@@ -433,8 +421,8 @@
     },
     {
       "id": "tsf-1066",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Dünya Yaş Grupları Satranç Şampiyonası (8 - 10 - 12 Yaş)",
+      "city": "Gürcistan - Batum",
       "start": "2026-11-21",
       "end": "2026-11-29",
       "type": "uluslararası",
@@ -454,12 +442,12 @@
       "rounds": 6,
       "categories": [
         {
-          "name": "Yaş",
-          "url": "https://chess-results.com/tnr1524950.aspx?lan=1"
-        },
-        {
           "name": "Genel",
           "url": "https://chess-results.com/tnr1524949.aspx?lan=1"
+        },
+        {
+          "name": "Yaş",
+          "url": "https://chess-results.com/tnr1524950.aspx?lan=1"
         }
       ],
       "prizes": [],
@@ -467,21 +455,21 @@
     },
     {
       "id": "tsf-1067",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Türkiye Şampiyonası",
+      "city": "",
       "start": "2026-12-03",
       "end": "2026-12-14",
       "type": "ulusal",
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1067",
-      "website": "https://tr2026.tsf.org.tr/",
-      "source": "tsf"
+      "source": "tsf",
+      "website": "https://tr2026.tsf.org.tr/"
     },
     {
       "id": "tsf-1119",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 Türkiye Hızlı Yıldırım Satranç Şampiyonası",
+      "city": "",
       "start": "2026-12-18",
       "end": "2026-12-20",
       "type": "ulusal",
@@ -492,8 +480,8 @@
     },
     {
       "id": "tsf-1089",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Türkiye Küçükler Satranç Şampiyonası",
+      "city": "",
       "start": "2027-01-23",
       "end": "2027-01-30",
       "type": "ulusal",
@@ -504,8 +492,8 @@
     },
     {
       "id": "tsf-1090",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Türkiye Yıldızlar Satranç Şampiyonası",
+      "city": "",
       "start": "2027-01-23",
       "end": "2027-01-30",
       "type": "ulusal",
@@ -516,8 +504,8 @@
     },
     {
       "id": "tsf-1093",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Eğitim - Öğretim Yarı Yıl Tatili",
+      "city": "",
       "start": "2027-01-25",
       "end": "2027-02-05",
       "type": "ulusal",
@@ -528,8 +516,8 @@
     },
     {
       "id": "tsf-1091",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası İl Yarışmaları",
+      "city": "",
       "start": "2027-02-13",
       "end": "2027-04-04",
       "type": "ulusal",
@@ -540,8 +528,8 @@
     },
     {
       "id": "tsf-1095",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Eğitim - Öğretim Yılı 2. Ara Tatili",
+      "city": "",
       "start": "2027-03-08",
       "end": "2027-03-12",
       "type": "ulusal",
@@ -552,8 +540,8 @@
     },
     {
       "id": "tsf-1094",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Ramazan Bayramı",
+      "city": "",
       "start": "2027-03-09",
       "end": "2027-03-11",
       "type": "ulusal",
@@ -564,8 +552,8 @@
     },
     {
       "id": "tsf-1092",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Kulüpler Şampiyonası İl - Yöre Yarışmaları",
+      "city": "",
       "start": "2027-03-13",
       "end": "2027-06-13",
       "type": "ulusal",
@@ -576,8 +564,8 @@
     },
     {
       "id": "tsf-1096",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2027 Avrupa Kadınlar Satranç Şampiyonası",
+      "city": "Malta",
       "start": "2027-03-15",
       "end": "2027-03-28",
       "type": "uluslararası",
@@ -588,7 +576,7 @@
     },
     {
       "id": "tsf-1097",
-      "name": "Etkinlik Detayı",
+      "name": "2027 Avrupa Okullar Satranç Şampiyonası",
       "city": "Antalya",
       "start": "2027-03-21",
       "end": "2027-03-31",
@@ -600,8 +588,8 @@
     },
     {
       "id": "tsf-1099",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Küçükler ve Yıldızlar Takım Şampiyonası Türkiye Finali",
+      "city": "",
       "start": "2027-04-21",
       "end": "2027-04-25",
       "type": "ulusal",
@@ -612,8 +600,8 @@
     },
     {
       "id": "tsf-1100",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "city": "",
       "start": "2027-04-23",
       "end": "2027-04-23",
       "type": "ulusal",
@@ -624,8 +612,8 @@
     },
     {
       "id": "tsf-1102",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Türkiye Kadınlar Satranç Şampiyonası",
+      "city": "",
       "start": "2027-05-01",
       "end": "2027-05-07",
       "type": "ulusal",
@@ -636,8 +624,8 @@
     },
     {
       "id": "tsf-1101",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Emek ve Dayanışma Günü",
+      "city": "",
       "start": "2027-05-01",
       "end": "2027-05-01",
       "type": "ulusal",
@@ -648,8 +636,8 @@
     },
     {
       "id": "tsf-1121",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Avrupa Bireysel Satranç Şampiyonası",
+      "city": "Gürcistan - Batum",
       "start": "2027-05-11",
       "end": "2027-05-24",
       "type": "uluslararası",
@@ -660,8 +648,8 @@
     },
     {
       "id": "tsf-1103",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Kurban Bayramı",
+      "city": "",
       "start": "2027-05-15",
       "end": "2027-05-19",
       "type": "ulusal",
@@ -672,8 +660,8 @@
     },
     {
       "id": "tsf-1104",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "city": "",
       "start": "2027-05-19",
       "end": "2027-05-19",
       "type": "ulusal",
@@ -684,8 +672,8 @@
     },
     {
       "id": "tsf-1106",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Türkiye Emektarlar Satranç Şampiyonası",
+      "city": "",
       "start": "2027-05-24",
       "end": "2027-05-30",
       "type": "ulusal",
@@ -696,8 +684,8 @@
     },
     {
       "id": "tsf-1105",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Türkiye Gençler Satranç Şampiyonası",
+      "city": "",
       "start": "2027-05-24",
       "end": "2027-05-30",
       "type": "ulusal",
@@ -708,8 +696,8 @@
     },
     {
       "id": "tsf-1107",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2026 - 2027 Eğitim - Öğretim Yılı Bitişi",
+      "city": "",
       "start": "2027-06-25",
       "end": "2027-06-25",
       "type": "ulusal",
@@ -720,8 +708,8 @@
     },
     {
       "id": "tsf-1122",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "2027 Avrupa Genç Takımlar Satranç Şampiyonası",
+      "city": "Romanya - Mamaia",
       "start": "2027-06-26",
       "end": "2027-07-04",
       "type": "uluslararası",
@@ -732,8 +720,8 @@
     },
     {
       "id": "tsf-1108",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Demokrasi ve Milli Birlik Günü",
+      "city": "",
       "start": "2027-07-15",
       "end": "2027-07-15",
       "type": "ulusal",
@@ -744,8 +732,8 @@
     },
     {
       "id": "tsf-1115",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "30 Ağustos Zafer Bayramı",
+      "city": "",
       "start": "2027-08-30",
       "end": "2027-08-30",
       "type": "ulusal",
@@ -755,21 +743,9 @@
       "source": "tsf"
     },
     {
-      "id": "tsf-1118",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
-      "start": "2027-09-16",
-      "end": "2028-09-15",
-      "type": "ulusal",
-      "categories": [],
-      "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1118",
-      "source": "tsf"
-    },
-    {
       "id": "tsf-1123",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Avrupa Takımlar Satranç Şampiyonası",
+      "city": "Portekiz - Lagos",
       "start": "2027-10-01",
       "end": "2027-10-12",
       "type": "uluslararası",
@@ -780,7 +756,7 @@
     },
     {
       "id": "tsf-1124",
-      "name": "Etkinlik Detayı",
+      "name": "Dünya 13 - 17 Yaş Altı Satranç Şampiyonası",
       "city": "Antalya",
       "start": "2027-10-26",
       "end": "2027-11-05",
@@ -792,8 +768,8 @@
     },
     {
       "id": "tsf-1125",
-      "name": "Etkinlik Detayı",
-      "city": "Antalya",
+      "name": "Avrupa Yaş Grupları Satranç Şampiyonası",
+      "city": "Yunanistan - Rodos",
       "start": "2027-11-01",
       "end": "2027-11-12",
       "type": "uluslararası",
