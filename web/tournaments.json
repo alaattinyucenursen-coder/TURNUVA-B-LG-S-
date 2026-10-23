@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T13:21:43+00:00",
+  "updated": "2026-10-23T13:25:07+00:00",
   "tournaments": [
     {
       "id": "tsf-1062",
@@ -91,7 +91,6 @@
         }
       ],
       "prizes": [
-        "Temel Ödüller Her Kategoride;",
         "İlk dört dereceyi elde eden sporculara Madalya,",
         "En iyi dereceyi elde eden kadın sporcuya Madalya verilecektir."
       ],
@@ -195,7 +194,9 @@
           "url": "https://chess-results.com/tnr1524609.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara Madalya verilecektir."
+      ],
       "source": "chess-results",
       "regulation": "http://antalya.tsf.org.tr/images/2026Manavgat/MANAVGAT_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_YNERGES.pdf"
     },
@@ -218,7 +219,12 @@
           "url": "https://chess-results.com/tnr1524536.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara Kupa ve Madalya,",
+        "En iyi dereceyi elde eden üç kadın sporcuya Kupa ve Madalya,",
+        "İlk üç dereceyi elde eden Yerel Sporculara Kupa ve Madalya verilecektir. (Yerel sporcu ödülünden yararlanabilmek için sporcuların Torbalı'da öğrenim gördüklerini gösteren Öğrenci Belgesi'ni kayıt kont",
+        "Açık kategoride yarışan yerel sporculardan ise ikamet belgesi ibraz etmeleri istenecektir.)"
+      ],
       "source": "chess-results",
       "regulation": "http://izmir.tsf.org.tr/images/2026/10_EKIM_2026/5_TORBALI_CUMHURIYET_BAYRAMI/torbali%20beledyes%2029%20ekm%20cumhuryet%20bayrami%20satran%20turnuvasi%20ynerges.pdf"
     },
@@ -275,7 +281,10 @@
           "url": "https://chess-results.com/tnr1524734.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "En iyi kadın sporculara Madalya verilecektir."
+      ],
       "source": "chess-results",
       "regulation": "http://antalya.tsf.org.tr/images/2026Ant29Ekim/ANTALYA_29_EKM_CUMHURYET_BAYRAMI_ELO_SATRAN_TURNUVASI_YNERGES.pdf"
     },
@@ -306,9 +315,12 @@
           "url": "https://chess-results.com/tnr1524666.aspx?lan=1"
         }
       ],
-      "prizes": [],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara Kupa,",
+        "İlk beş dereceyi elde eden sporculara Madalya verilecektir."
+      ],
       "source": "chess-results",
-      "regulation": "http://www.elazig.tsf.org.tr/images/2026/29_ekim_2026/2026_Cumhuriyet_Kupas_Satran_Turnuvas.pdf"
+      "regulation": "http://www.elazig.tsf.org.tr/images/2026/29_ekim_2026/2026_ELAZI_CUMHURYET_KUPASI_ELO_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1524658",
@@ -334,9 +346,7 @@
         }
       ],
       "prizes": [
-        "5.1 Her kategoride İlk üç dereceyi elde eden sporculara Madalya verilecektir.",
-        "5.3 Turnuva direktörü aksi yönde karar vermemişse, ödül törenine katılmayan sporcular hak iddia edemezler.",
-        "5.4 Sporcular hak ettikleri ödüllerin tamamını alır."
+        "Her kategoride İlk üç dereceyi elde eden sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
       "regulation": "http://www.mersin.tsf.org.tr/images/CUMHURYET_BAYRAMI_BOZYAZI-ANAMUR_SATRAN_TURNUVASI.pdf"
@@ -365,7 +375,6 @@
         }
       ],
       "prizes": [
-        "Temel Ödüller Her Kategoride;",
         "İlk üç dereceyi elde eden sporculara Kupa,",
         "İlk beş dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir."
       ],
@@ -388,7 +397,7 @@
         }
       ],
       "prizes": [
-        "Temel Ödüller Her Kategoride; İlk üç dereceyi elde eden sporculara ve ayrıca her kategoride ilk 3 dereceyi elde eden kadın sporculara Madalya verilecektir."
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara ve ayrıca her kategoride ilk 3 dereceyi elde eden kadın sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
       "regulation": "http://www.malatya.tsf.org.tr/images/MALATYA_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_1.pdf"
@@ -473,7 +482,6 @@
         }
       ],
       "prizes": [
-        "Temel Ödüller Her Kategoride;",
         "İlk üç dereceyi elde eden sporculara Kupa,",
         "İlk on dereceyi elde eden sporculara Madalya verilecektir."
       ],
