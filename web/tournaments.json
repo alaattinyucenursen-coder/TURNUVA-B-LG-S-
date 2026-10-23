@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T13:02:02+00:00",
+  "updated": "2026-10-23T13:12:17+00:00",
   "tournaments": [
     {
       "id": "tsf-1062",
@@ -91,7 +91,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://burdur.tsf.org.tr/images/2025-2026/29_Ekim/BURDUR_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1525132",
@@ -191,7 +192,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://antalya.tsf.org.tr/images/2026Manavgat/MANAVGAT_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_YNERGES.pdf"
     },
     {
       "id": "cr-1524534",
@@ -213,7 +215,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://izmir.tsf.org.tr/images/2026/10_EKIM_2026/5_TORBALI_CUMHURIYET_BAYRAMI/torbali%20beledyes%2029%20ekm%20cumhuryet%20bayrami%20satran%20turnuvasi%20ynerges.pdf"
     },
     {
       "id": "cr-1525024",
@@ -269,7 +272,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://antalya.tsf.org.tr/images/2026Ant-.ENCAN/Antalya_brahim_encan_7._An_Satran_Turnuvas.pdf"
     },
     {
       "id": "cr-1524667",
@@ -299,7 +303,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://www.elazig.tsf.org.tr/images/2026/29_ekim_2026/2026_ELAZI_CUMHURYET_KUPASI_ELO_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1524658",
@@ -325,7 +330,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://www.mersin.tsf.org.tr/images/29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1524607",
@@ -351,7 +357,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://Yalova.tsf.org.tr/images/YALOVA_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "cr-1523858",
@@ -368,8 +375,11 @@
           "url": "https://chess-results.com/tnr1523858.aspx?lan=1"
         }
       ],
-      "prizes": [],
-      "source": "chess-results"
+      "prizes": [
+        "TemelÖdüller HerKategoride;  İlk üç dereceyi elde eden sporcularave ayrıca her kategoride ilk 3 dereceyi elde eden kadın sporculara Madalyaverilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.malatya.tsf.org.tr/images/MALATYA_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_1.pdf"
     },
     {
       "id": "tsf-1068",
@@ -451,7 +461,8 @@
         }
       ],
       "prizes": [],
-      "source": "chess-results"
+      "source": "chess-results",
+      "regulation": "http://www.eskisehir.tsf.org.tr/images/2027/ebb/Kayt_listesi.pdf"
     },
     {
       "id": "tsf-1067",
