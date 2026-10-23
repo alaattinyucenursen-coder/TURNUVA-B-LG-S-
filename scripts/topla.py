@@ -210,7 +210,8 @@ def collect_tsf(today):
         if not h3 or not p:
             continue
         name = h3.get_text(" ", strip=True)
-        if "sezon" in name.lower():
+        # Takvimde bayram ve okul tatilleri de var; sadece satranç etkinliklerini al
+        if "sezon" in name.lower() or not re.search(r"satranç|şampiyona|kupa|lig|turnuva|yarışma", name, re.I):
             continue
         when, _, place = p.get_text(" ", strip=True).partition("·")
         place = place.strip()
