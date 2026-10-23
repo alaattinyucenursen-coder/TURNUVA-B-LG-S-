@@ -1,7 +1,52 @@
 {
-  "updated": "2026-10-23T12:00:00Z",
-  "note": "Örnek veri. Ödül bilgileri gerçek yönergelerden toplanana kadar temsilidir.",
+  "updated": "2026-10-23T12:50:37+00:00",
   "tournaments": [
+    {
+      "id": "tsf-1117",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-09-16",
+      "end": "2027-09-15",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1117",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1062",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-10-16",
+      "end": "2026-10-24",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1062",
+      "source": "tsf"
+    },
+    {
+      "id": "cr-1525017",
+      "name": "''2 Atatürk Gibi Düşün'' Aka Koleji Satranç Turnuvası",
+      "city": "İstanbul",
+      "start": "2026-10-22",
+      "end": "2026-10-23",
+      "type": "il",
+      "timeControl": "10 dk",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "B Grubu",
+          "url": "https://chess-results.com/tnr1525017.aspx?lan=1"
+        },
+        {
+          "name": "A Grubu",
+          "url": "https://chess-results.com/tnr1525016.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
     {
       "id": "cr-1525177",
       "name": "29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
@@ -12,59 +57,750 @@
       "timeControl": "35'+30\"",
       "rounds": 6,
       "categories": [
-        { "name": "08 Yaş ve Altı", "url": "https://chess-results.com/tnr1525177.aspx?lan=1" },
-        { "name": "10 Yaş", "url": "https://chess-results.com/tnr1525179.aspx?lan=1" },
-        { "name": "14 Yaş", "url": "https://chess-results.com/tnr1525180.aspx?lan=1" },
-        { "name": "Açık", "url": "https://chess-results.com/tnr1525182.aspx?lan=1" }
+        {
+          "name": "08 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1525177.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1525179.aspx?lan=1"
+        },
+        {
+          "name": "14 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1525180.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1525182.aspx?lan=1"
+        }
       ],
-      "prizes": ["Her kategoride ilk 3'e kupa ve madalya"],
-      "regulation": "http://www.tokat.tsf.org.tr",
-      "registration": "https://www.tokat.tsf.org.tr/turnuva-kayit-form"
+      "prizes": [],
+      "source": "chess-results",
+      "registration": "https://www.tokat.tsf.org.tr/turnuva-kayit-form",
+      "regulation": "http://www.tokat.tsf.org.tr"
+    },
+    {
+      "id": "cr-1525163",
+      "name": "Burdur 2026 Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Burdur",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "30'+30\" EKLEMELİ TEMPO",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "14 Yaş",
+          "url": "https://chess-results.com/tnr1525163.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş",
+          "url": "https://chess-results.com/tnr1525162.aspx?lan=1"
+        },
+        {
+          "name": "Açık Kategori",
+          "url": "https://chess-results.com/tnr1525161.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1525132",
+      "name": "Akhisar 29 Ekim Cumhuriyet Bayramı Hızlı Satranç Turnuvası",
+      "city": "Manisa",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "type": "il",
+      "timeControl": "15''+10'",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "16 Yaşaltı 2011-2014",
+          "url": "https://chess-results.com/tnr1525132.aspx?lan=1"
+        },
+        {
+          "name": "12 Yaş Altı 2015-2016",
+          "url": "https://chess-results.com/tnr1525127.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaşaltı",
+          "url": "https://chess-results.com/tnr1525125.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaşaltı",
+          "url": "https://chess-results.com/tnr1525121.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524620",
+      "name": "2026 Manavgat 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Antalya",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "35'+30'' eklemeli tempo",
+      "rounds": 7,
+      "categories": [
+        {
+          "name": "8 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524620.aspx?lan=1"
+        },
+        {
+          "name": "7 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524623.aspx?lan=1"
+        },
+        {
+          "name": "7 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524622.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524621.aspx?lan=1"
+        },
+        {
+          "name": "9 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524619.aspx?lan=1"
+        },
+        {
+          "name": "9 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524618.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524617.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524615.aspx?lan=1"
+        },
+        {
+          "name": "11 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524614.aspx?lan=1"
+        },
+        {
+          "name": "11 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524613.aspx?lan=1"
+        },
+        {
+          "name": "12 Yaş ve Altı Kadın",
+          "url": "https://chess-results.com/tnr1524612.aspx?lan=1"
+        },
+        {
+          "name": "12 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524611.aspx?lan=1"
+        },
+        {
+          "name": "Açık Kadın",
+          "url": "https://chess-results.com/tnr1524610.aspx?lan=1"
+        },
+        {
+          "name": "Açık Yaş Kadın",
+          "url": "https://chess-results.com/tnr1524609.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524534",
+      "name": "Torbalı Belediyesi 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "İzmir",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "35'+30\" EKLEMELİ TEMPO",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "10 Yaş ve Altı [2018-2017 Doğumlu Sporcular]",
+          "url": "https://chess-results.com/tnr1524534.aspx?lan=1"
+        },
+        {
+          "name": "Açık Kategori [2012 ve Öncesi Doğumlu Sporcular]",
+          "url": "https://chess-results.com/tnr1524536.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1525024",
+      "name": "Köyceğiz 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "İstanbul",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "45 DAKİKA + HAMLE BAŞINA 30 SANİYE EKLEMELİ TEMPO",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1525024.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş",
+          "url": "https://chess-results.com/tnr1525023.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaş",
+          "url": "https://chess-results.com/tnr1525021.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524735",
+      "name": "Antalya 29 Ekim Cumhuriyet Bayramı Elo Satranç Turnuvası",
+      "city": "Antalya",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "60'+30'' eklemeli tempo",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "A",
+          "url": "https://chess-results.com/tnr1524735.aspx?lan=1"
+        },
+        {
+          "name": "B",
+          "url": "https://chess-results.com/tnr1524734.aspx?lan=1"
+        },
+        {
+          "name": "7 Yaş",
+          "url": "https://chess-results.com/tnr1524733.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaş",
+          "url": "https://chess-results.com/tnr1524732.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524667",
+      "name": "2026 Elazığ Cumhuriyet Kupası Satranç Turnuvası",
+      "city": "Elazığ",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "60'+30''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "8 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1524667.aspx?lan=1"
+        },
+        {
+          "name": "C",
+          "url": "https://chess-results.com/tnr1524666.aspx?lan=1"
+        },
+        {
+          "name": "B",
+          "url": "https://chess-results.com/tnr1524665.aspx?lan=1"
+        },
+        {
+          "name": "A",
+          "url": "https://chess-results.com/tnr1524663.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524658",
+      "name": "Anamur 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Mersin",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "35'+30'' Eklemeli Tempo",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Açık (2020 ve Öncesi Doğumlular)",
+          "url": "https://chess-results.com/tnr1524658.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı (2017-2018 Doğumlular)",
+          "url": "https://chess-results.com/tnr1524656.aspx?lan=1"
+        },
+        {
+          "name": "08 Yaş ve Altı (2019-2020 Doğumlular)",
+          "url": "https://chess-results.com/tnr1524653.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1524607",
+      "name": "Yalova 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Yalova",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "45'+30''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "U10",
+          "url": "https://chess-results.com/tnr1524607.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1524599.aspx?lan=1"
+        },
+        {
+          "name": "U8 U8",
+          "url": "https://chess-results.com/tnr1524600.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1523858",
+      "name": "Malatya Cumhuriyet Bayramı Satranç Turnuvası_açık Ktg.",
+      "city": "Malatya",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "type": "il",
+      "timeControl": "35 dakika ve ilk hamleden itibaren 30 saniye eklemeli zaman temposu",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1523858.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "tsf-1068",
-      "name": "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
-      "city": "Mersin",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
       "start": "2026-11-02",
       "end": "2026-11-08",
       "type": "ulusal",
       "categories": [],
       "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1068"
+      "regulation": "https://www.tsf.org.tr/etkinlik/1068",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1064",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-11-02",
+      "end": "2026-11-13",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1064",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1065",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1065",
+      "source": "tsf"
     },
     {
       "id": "tsf-1052",
-      "name": "2026 - 2027 Türkiye Kupası",
-      "city": "",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
       "start": "2026-11-14",
       "end": "2026-11-21",
       "type": "ulusal",
       "categories": [],
       "prizes": [],
-      "regulation": "https://www.tsf.org.tr/etkinlik/1052"
+      "regulation": "https://www.tsf.org.tr/etkinlik/1052",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1066",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-11-21",
+      "end": "2026-11-29",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1066",
+      "source": "tsf"
+    },
+    {
+      "id": "cr-1524950",
+      "name": "Eskişehir Büyükşehir Belediyesi Gelenekse Cumhuriyet Kupası Satranç Turnuvası",
+      "city": "Eskişehir",
+      "start": "2026-11-24",
+      "end": "2026-11-25",
+      "type": "il",
+      "timeControl": "35 Dakika + 30 Saniye EKLEMELİ TEMPO",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Yaş",
+          "url": "https://chess-results.com/tnr1524950.aspx?lan=1"
+        },
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1524949.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "tsf-1067",
-      "name": "2026 Türkiye Şampiyonası",
-      "city": "",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
       "start": "2026-12-03",
       "end": "2026-12-14",
       "type": "ulusal",
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1067",
-      "website": "https://tr2026.tsf.org.tr/"
+      "website": "https://tr2026.tsf.org.tr/",
+      "source": "tsf"
     },
     {
-      "id": "tsf-1077",
-      "name": "Gazi Open Uluslararası Açık Satranç Turnuvası",
-      "city": "Gaziantep",
-      "start": "2026-08-31",
-      "end": "2026-09-06",
+      "id": "tsf-1119",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1119",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1089",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-01-23",
+      "end": "2027-01-30",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1089",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1090",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-01-23",
+      "end": "2027-01-30",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1090",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1093",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-01-25",
+      "end": "2027-02-05",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1093",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1091",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-02-13",
+      "end": "2027-04-04",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1091",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1095",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-03-08",
+      "end": "2027-03-12",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1095",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1094",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-03-09",
+      "end": "2027-03-11",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1094",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1092",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-03-13",
+      "end": "2027-06-13",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1092",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1096",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-03-15",
+      "end": "2027-03-28",
       "type": "uluslararası",
       "categories": [],
       "prizes": [],
-      "regulation": "https://www.tsf.org.tr/turnuva-arsivi/1077"
+      "regulation": "https://www.tsf.org.tr/etkinlik/1096",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1097",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-03-21",
+      "end": "2027-03-31",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1097",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1099",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-04-21",
+      "end": "2027-04-25",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1099",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1100",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-04-23",
+      "end": "2027-04-23",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1100",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1102",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-01",
+      "end": "2027-05-07",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1102",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1101",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-01",
+      "end": "2027-05-01",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1101",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1121",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-11",
+      "end": "2027-05-24",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1121",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1103",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-15",
+      "end": "2027-05-19",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1103",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1104",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1104",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1106",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-24",
+      "end": "2027-05-30",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1106",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1105",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-05-24",
+      "end": "2027-05-30",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1105",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1107",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-06-25",
+      "end": "2027-06-25",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1107",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1122",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-06-26",
+      "end": "2027-07-04",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1122",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1108",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-07-15",
+      "end": "2027-07-15",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1108",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1115",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-08-30",
+      "end": "2027-08-30",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1115",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1118",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-09-16",
+      "end": "2028-09-15",
+      "type": "ulusal",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1118",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1123",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-10-01",
+      "end": "2027-10-12",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1123",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1124",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-10-26",
+      "end": "2027-11-05",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1124",
+      "source": "tsf"
+    },
+    {
+      "id": "tsf-1125",
+      "name": "Etkinlik Detayı",
+      "city": "Antalya",
+      "start": "2027-11-01",
+      "end": "2027-11-12",
+      "type": "uluslararası",
+      "categories": [],
+      "prizes": [],
+      "regulation": "https://www.tsf.org.tr/etkinlik/1125",
+      "source": "tsf"
     }
   ]
 }
