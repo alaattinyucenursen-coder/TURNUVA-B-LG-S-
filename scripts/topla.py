@@ -20,6 +20,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from yonerge import YonergeBulucu
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "web" / "tournaments.json"
 EXTRAS = ROOT / "data" / "ekler.json"
@@ -58,6 +60,16 @@ def get(url):
     r = session.get(url, timeout=30)
     r.raise_for_status()
     return BeautifulSoup(r.text, "html.parser")
+
+
+def fetch_bytes(url, limit):
+    time.sleep(1)
+    r = session.get(url, timeout=60, stream=True)
+    r.raise_for_status()
+    data = r.raw.read(limit + 1, decode_content=True)
+    if len(data) > limit:
+        raise ValueError("dosya çok büyük")
+    return data
 
 
 def upper_tr(s):
@@ -119,7 +131,10 @@ def cr_details(tnr):
         return ""
 
     dates = parse_dates(pick("date"))
+    homepage = next((a["href"] for a in soup.select("a[href^='http']")
+                     if "homepage of the organizer" in a.get_text(" ", strip=True).lower()), "")
     return {
+        "homepage": homepage,
         "tnr": tnr,
         "name": name,
         "organizer": pick("organizer"),
@@ -190,12 +205,23 @@ def collect_cr(today):
             "categories": [],
             "prizes": [],
             "source": "chess-results",
+            "_homepage": d["homepage"],
+            "_tnrs": [],
         })
+        g["_tnrs"].append(tnr)
         g["categories"].append({"name": title_tr(cat) or "Genel",
                                 "url": f"{CR}tnr{tnr}.aspx?lan=1"})
         log(f"  + {d['name']} ({d['start']})")
+    bulucu = YonergeBulucu(get, fetch_bytes, log)
     for g in groups.values():
         g["categories"].sort(key=category_order)
+        homepage, tnrs = g.pop("_homepage"), g.pop("_tnrs")
+        if homepage:
+            log(f"  Yönerge aranıyor: {g['name']}")
+            pdf, prizes = bulucu.prizes(homepage, set(tnrs), g["name"])
+            if pdf:
+                g["regulation"] = pdf
+            g["prizes"] = prizes
     return list(groups.values())
 
 
