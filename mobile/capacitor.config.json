@@ -1,0 +1,15 @@
+{
+  "appId": "tr.satranc.turnuvalari",
+  "appName": "Satranç Turnuvaları",
+  "webDir": "www",
+  "plugins": {
+    "BackgroundRunner": {
+      "label": "tr.satranc.turnuvalari.kontrol",
+      "src": "runners/kontrol.js",
+      "event": "kontrol",
+      "repeat": true,
+      "interval": 180,
+      "autoStart": true
+    }
+  }
+}
