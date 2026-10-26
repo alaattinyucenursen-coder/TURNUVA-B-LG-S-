@@ -2,31 +2,43 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Satranç Turnuvaları</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.png">
   <meta name="theme-color" content="#1f2937">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>♞ Satranç Turnuvaları</h1>
-    <p class="sub">TSF turnuvaları tek yerde</p>
+  <header class="bar">
+    <div class="bar-top">
+      <h1>♞ Satranç Turnuvaları</h1>
+      <button id="refresh" class="icon-btn" aria-label="Yenile">⟳</button>
+    </div>
+    <input id="q" type="search" placeholder="🔍 Turnuva ya da il ara" autocomplete="off">
+    <div class="quick" id="quick" role="tablist">
+      <button data-f="all" class="on">Tümü</button>
+      <button data-f="week">Bu hafta</button>
+      <button data-f="month">Bu ay</button>
+      <button data-f="il">İl turnuvaları</button>
+      <button data-f="ulusal">Ulusal</button>
+      <button data-f="uluslararası">Uluslararası</button>
+      <button data-f="prize">🏆 Ödüllü</button>
+    </div>
+    <div class="selects">
+      <select id="city" aria-label="İl"><option value="">📍 Tüm iller</option></select>
+      <select id="age" aria-label="Yaş grubu">
+        <option value="">👦 Tüm yaşlar</option>
+        <option>7</option><option>8</option><option>9</option><option>10</option><option>11</option>
+        <option>12</option><option>14</option><option>16</option><option>18</option>
+        <option value="açık">Açık</option>
+      </select>
+    </div>
   </header>
 
-  <section class="filters">
-    <input id="q" type="search" placeholder="Turnuva ara">
-    <select id="city"><option value="">Tüm iller</option></select>
-    <select id="type">
-      <option value="">Tüm türler</option>
-      <option value="il">İl turnuvası</option>
-      <option value="ulusal">Ulusal</option>
-      <option value="uluslararası">Uluslararası</option>
-    </select>
-    <input id="cat" type="search" placeholder="Kategori (ör. 10 Yaş)">
-  </section>
-
-  <main id="list"></main>
+  <div id="notice" class="notice" hidden></div>
+  <p id="count" class="count"></p>
+  <main id="list"><div class="loading">Turnuvalar yükleniyor…</div></main>
   <footer id="updated"></footer>
 
   <script src="app.js"></script>
