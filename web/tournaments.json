@@ -1,46 +1,27 @@
 {
-  "updated": "2026-10-26T04:31:13+00:00",
+  "updated": "2026-10-27T04:29:38+00:00",
   "tournaments": [
     {
-      "id": "cr-1527820",
-      "name": "Silivri İlçe Okul Sporları Satranç Turnuvası",
-      "city": "",
+      "id": "cr-1528026",
+      "name": "Sason 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
+      "city": "Batman",
       "start": "2026-10-26",
-      "end": "2026-10-26",
+      "end": "2026-10-27",
       "type": "il",
-      "timeControl": "35\"+30'",
-      "rounds": 7,
+      "timeControl": "35\" + 30' EKLEMELİ TEMPO",
+      "rounds": 6,
       "categories": [
         {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1527817.aspx?lan=1"
+          "name": "08 Yaş ve Altı Sporcular",
+          "url": "https://chess-results.com/tnr1528026.aspx?lan=1"
         },
         {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1527816.aspx?lan=1"
-        },
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1527814.aspx?lan=1"
-        },
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1527807.aspx?lan=1"
-        },
-        {
-          "name": "Gençler Genel",
-          "url": "https://chess-results.com/tnr1527818.aspx?lan=1"
-        },
-        {
-          "name": "Gençler Kızlar",
-          "url": "https://chess-results.com/tnr1527820.aspx?lan=1"
+          "name": "14 Yaş ve Altı Sporcular",
+          "url": "https://chess-results.com/tnr1527999.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "Her Kategoride; İlk dört dereceyi elde eden takımlara Kupa ve sporcularına Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/silivri2026_yonerge.pdf"
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "cr-1527812",
@@ -85,7 +66,8 @@
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1068",
-      "source": "tsf"
+      "source": "tsf",
+      "website": "https://gormeengelliler2026.tsf.org.tr/"
     },
     {
       "id": "tsf-1064",
