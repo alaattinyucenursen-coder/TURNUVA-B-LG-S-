@@ -1,8 +1,54 @@
 {
-  "updated": "2026-10-28T04:38:48+00:00",
+  "updated": "2026-10-29T04:41:52+00:00",
   "tournaments": [
     {
-      "id": "cr-1528973",
+      "id": "cr-1529783",
+      "name": "Satranç Atakum Spor Kulübü Cumhuriyet Kupası Hızlı Satranç Turnuvası",
+      "city": "",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "type": "il",
+      "timeControl": "10'+05\"",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "8 Yaş ve Altı (2019-2020 Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1529783.aspx?lan=1"
+        },
+        {
+          "name": "Açık (2020 ve Önceki Yıllarda Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1529784.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1529621",
+      "name": "Şişli 29 Ekim Cumhuriyet Kupası Satranç Turnuvası",
+      "city": "İstanbul",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "type": "il",
+      "timeControl": "25'+10\"",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1529621.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa verilecektir.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
+        "Nakdi Ödüller: Final Sıra 7 Yaş Kategorisi 8 Yaş Kategorisi 9 Yaş Kategorisi 10 Yaş Kategorisi 1 6.000 ₺ 6.000 ₺ 6.000 ₺ 6.000 ₺"
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/29ekim/sariyer2026_yonerge.pdf"
+    },
+    {
+      "id": "cr-1528965",
       "name": "Ankara 29 Ekim Cumhuriyet Bayramı Hızlı Satranç Turnuvası",
       "city": "Ankara",
       "start": "2026-10-29",
@@ -43,7 +89,39 @@
       "regulation": "https://ankara.tsf.org.tr/images/2026/Il_Turnuvalar/29_Ekim/ANKARA_29_EKM_CUMHURYET_BAYRAMI_HIZLI_SATRAN_TURNUVASI.pdf"
     },
     {
-      "id": "cr-1528689",
+      "id": "cr-1529618",
+      "name": "Çatalca 29 Ekim Cumhuriyet Kupası Satranç Turnuvası",
+      "city": "",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "type": "il",
+      "timeControl": "15'+5''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "8 Yaş ve Altı (2019-2020 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1529616.aspx?lan=1"
+        },
+        {
+          "name": "14 Yaş ve Altı (2013-2018 Yılları ve Arasında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1529617.aspx?lan=1"
+        },
+        {
+          "name": "A (2012 ve Öncesinde Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1529618.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa verilecektir.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
+        "Nakdi Ödüller: Final Sıra 7 Yaş Kategorisi 8 Yaş Kategorisi 9 Yaş Kategorisi 10 Yaş Kategorisi 1 6.000 ₺ 6.000 ₺ 6.000 ₺ 6.000 ₺"
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/29ekim/sariyer2026_yonerge.pdf"
+    },
+    {
+      "id": "cr-1528691",
       "name": "Marmaris İndigo Atatürk ve Cumhuriyet Kupası Hızlı Satranç Turnuvası",
       "city": "",
       "start": "2026-10-29",
@@ -67,6 +145,28 @@
       ],
       "prizes": [],
       "source": "chess-results"
+    },
+    {
+      "id": "cr-1529230",
+      "name": "Türkiye Kupası Satranç Tunceli İl Birinciliği",
+      "city": "Tunceli",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "type": "il",
+      "timeControl": "45+30",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Turnuvası",
+          "url": "https://chess-results.com/tnr1529230.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
+        "İlk on dereceyi elde eden sporculara Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://tunceli.tsf.org.tr/images/ynerge%20-%20trkiye%20kupas%20satran%20tunceli%20l%20birincilii.pdf"
     },
     {
       "id": "cr-1528919",
@@ -167,14 +267,33 @@
     {
       "id": "tsf-1052",
       "name": "2025 - 2026 Türkiye Kupası",
-      "city": "",
+      "city": "Kayseri",
       "start": "2026-11-14",
       "end": "2026-11-21",
       "type": "ulusal",
       "categories": [],
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1052",
-      "source": "tsf"
+      "source": "tsf",
+      "website": "https://tk2026.tsf.org.tr/"
+    },
+    {
+      "id": "cr-1529352",
+      "name": "24 Kasım Öğretmenler Günü Tunceli Turnuvası",
+      "city": "Tunceli",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "type": "il",
+      "timeControl": "35+30",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1529352.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "tsf-1066",
