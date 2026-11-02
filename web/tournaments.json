@@ -1,540 +1,60 @@
 {
-  "updated": "2026-11-01T04:45:48+00:00",
+  "updated": "2026-11-02T04:53:50+00:00",
   "tournaments": [
     {
-      "id": "cr-1521787",
-      "name": "Medcem Maden ve Yapı Malz.san. ve Tic.a.ş Cumhuriyet Bayramı 2.satranç Turnuvası",
-      "city": "Mersin",
-      "start": "2026-10-30",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35'+30'' Eklemeli Tempo",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "8 Yaş ve Altı (2019-2020 Doğumlular)",
-          "url": "https://chess-results.com/tnr1521784.aspx?lan=1"
-        },
-        {
-          "name": "10 Yaş ve Altı (2017-2018 Doğumlular)",
-          "url": "https://chess-results.com/tnr1521785.aspx?lan=1"
-        },
-        {
-          "name": "12 Yaş ve Altı (2015-2016 Doğumlular)",
-          "url": "https://chess-results.com/tnr1521786.aspx?lan=1"
-        },
-        {
-          "name": "Açık (2020 ve Öncesi Doğumlular)",
-          "url": "https://chess-results.com/tnr1521787.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra U8 Kategorisi U10 Kategorisi U12 Kategorisi Açık Kategori 1.",
-        "25.000₺ 25.000₺ 25.000₺"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.mersin.tsf.org.tr/images/Medcem_Madencilik_ve_Yap_Malzemeleri_San._Ve_Tic._A._Cumhuriyet_Bayram_Satran_Turnuvas.pdf"
-    },
-    {
-      "id": "cr-1530762",
-      "name": "Datça 29 Ekim Cumhuriyet Bayramı Elo Satranç Turnuvası",
-      "city": "",
-      "start": "2026-10-30",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60' + 30\"",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1530764.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1530762.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1530268",
-      "name": "Alanya 29 Ekim Cumhuriyet Bayramı Elo Satranç Turnuvası",
-      "city": "Antalya",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' EKLEMELİ TEMPO",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1530268.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1530272.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk beş dereceyi elde eden sporculara Madalya,",
-        "İlk üç dereceyi elde eden kadın sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "https://antalya.tsf.org.tr/images/2026-2027_ALANYA/29EKIM/ALANYA_29_EKM_CUMHURYET_BAYRAMI_ELO_SATRAN_TURNUVASI.pdf"
-    },
-    {
-      "id": "cr-1528919",
-      "name": "T.c Adana Büyükşehir Belediyesi 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "Adana",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "45'30\"",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "10 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1528917.aspx?lan=1"
-        },
-        {
-          "name": "14 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1528918.aspx?lan=1"
-        },
-        {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1528920.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1528919.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk on dereceyi elde eden sporcular ile en iyi kadın, en iyi engelli, en iyi 50 yaş üstü sporculara Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek olan 230.000 ₺ nakdi ödül aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra U8 Kategorisi U10 Kategorisi U14 Kategorisi B Kategorisi A"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.adana.tsf.org.tr/images/T.C._ADANA_BYKEHR_BELEDYES_29_EKM_CUMHURYET_BAYRAMI_2026.pdf"
-    },
-    {
-      "id": "cr-1531008",
-      "name": "2026-2027 Z0nguldak 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "Zonguldak",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35'+30\" eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "8 Yaş ve Altı (2019 - 2020 Yıllarında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1531001.aspx?lan=1"
-        },
-        {
-          "name": "10 Yaş ve Altı (2017 - 2018 Yıllarında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1531006.aspx?lan=1"
-        },
-        {
-          "name": "14 Yaş ve Altı (2013 - 2016 Yılları ve Arasında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1531007.aspx?lan=1"
-        },
-        {
-          "name": "Açık Kategoris (2020 ve Önceki Yıllarda Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1531008.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; Birinciliği elde eden sporculara Kupa,",
-        "İlk dört dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://zonguldak.tsf.org.tr/images/ZONGULDAK_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI.pdf"
-    },
-    {
-      "id": "cr-1530328",
-      "name": "29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "Kocaeli",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35'+30'' eklemeli tempo",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "8 Yaş",
-          "url": "https://chess-results.com/tnr1531231.aspx?lan=1"
-        },
-        {
-          "name": "10 Yaş",
-          "url": "https://chess-results.com/tnr1531251.aspx?lan=1"
-        },
-        {
-          "name": "14 Yaş",
-          "url": "https://chess-results.com/tnr1531262.aspx?lan=1"
-        },
-        {
-          "name": "**********açık**********",
-          "url": "https://chess-results.com/tnr1530328.aspx?lan=1"
-        },
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1531272.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1531660",
-      "name": "Yalova Saffet Çam Vakfı Cumhuriyet Kupası Satranç Turnuvasu U8 Kategorisi",
-      "city": "Yalova",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' eklemeli zaman temposu",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1531660.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1531663",
-      "name": "Yalova Hacı Saffet Çam Vakfı Cumhuriyet Kupası Satranç Turnuvası",
-      "city": "Yalova",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' EKLEMELİ  ZAMAN TEMPOSU",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1531663.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1531661",
-      "name": "Yalova Saffet Çam Vakfı Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "Yalova",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' EKLEMELİ ZAMAN TEMPOSU",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "U12",
-          "url": "https://chess-results.com/tnr1531661.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1531076",
-      "name": "İzmir 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "İzmir",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35' + 30'' Eklemeli Zaman Temposu",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "C (1199 ve Altı Maksimum Kuvvet Puanına Sahip Sporcular)",
-          "url": "https://chess-results.com/tnr1531074.aspx?lan=1"
-        },
-        {
-          "name": "B (1399-1200 ve Arası Maksimum Kuvvet Puanına Sahip Sporcular)",
-          "url": "https://chess-results.com/tnr1531076.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk on dereceyi elde eden sporculara Madalya,",
-        "En dereceyi elde eden üç kadın sporcuya Kupa,",
-        "En dereceyi elde eden üç kadın sporcuya Madalya,",
-        "En iyi dereceyi elde eden 8 yaş ve altı (2019-2020), 10 yaş ve altı (2017-2018), 14 yaş ve altı (2013-2016) üç sporcuya Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra A Kategorisi B Kategorisi"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.izmir.tsf.org.tr/images/2026/10_EKIM_2026/7_IZMIR_29_EKIM_CUMHURIYET_BAYRAMI/zmr%2029%20ekm%20cumhuryet%20bayrami%20satran%20turnuvasi%20ynerges.pdf"
-    },
-    {
-      "id": "cr-1530351",
-      "name": "Gazipaşa 29 Ekim Cumhuriyet Bayramı Elo Satranç Turnuvası",
-      "city": "Antalya",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "8 Yas",
-          "url": "https://chess-results.com/tnr1530352.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1530351.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk beş dereceyi elde eden sporculara Madalya,",
-        "En iyi kadın sporcuya Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://antalya.tsf.org.tr/images/2026-2027/29Ekim/GAZPAA_29_EKM_CUMHURYET_BAYRAMI_ELO_SATRAN_TURNUVASI_YNERGES.pdf"
-    },
-    {
-      "id": "cr-1531182",
-      "name": "Yalova Saffet Çam Vakfı Cumhuriyet Kupası Satranç Turnuvası",
-      "city": "Yalova",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "60'+30'' Eklemeli zaman tempolu",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "B Kategirisi",
-          "url": "https://chess-results.com/tnr1531182.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk beş dereceyi elde eden sporculara Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Belirtilen miktarlardaki Hediye Çekleri Bilgi Kırtasiye Oyuncak mağazasından kullanılacaktır.",
-        "Ayni Ödüller: Final Sıra A Kategorisi B Kategorisi U8 Kategorisi U12 Kategorisi"
-      ],
-      "source": "chess-results",
-      "regulation": "http://yalova.tsf.org.tr/images/HACI_SAFFET_AM_VAKFI_CUMHURYET_KUPASI_ELO_SATRAN_TURNUVASI.pdf"
-    },
-    {
-      "id": "cr-1531234",
-      "name": "Kars Cumhuriyet Kupası Satranç Turnuvası",
-      "city": "Kars",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35 DAKİKA + HAMLE BAŞINA 30 SANİYE EKLEMELİ TEMPO",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "U8",
-          "url": "https://chess-results.com/tnr1531261.aspx?lan=1"
-        },
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1531234.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Açık Kategoride; İlk üç dereceyi elde eden sporculara Kupa, İlk on dereceyi elde eden sporculara ve en iyi dereceyi elde eden ilk üç kadın sporcuya Madalya verilecektir.",
-        "Yaş Kategorilerinde; İlk üç dereceyi elde eden sporculara Kupa, İlk üç dereceyi elde eden sporculara ve en iyi dereceyi elde eden kadın sporcuya Madalya verilecektir.",
-        "Diğer Ödüller Kategorilerde oluşan final sıralamasına göre Kars Türk Eğitim-Sen tarafından verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra U8 Kategorisi U10 Kategorisi Açık"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.kars.tsf.org.tr/images/2026_CUMHURYET/KARS_CUMHURYET_KUPASI_SATRAN_TURNUVASI_YNERGES.pdf"
-    },
-    {
-      "id": "cr-1530966",
-      "name": "Yıldızlar Satranç Antalya İl Birinciliği",
-      "city": "Antalya",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "45'+30'' eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Satranç Turnuvası 13 Yaş",
-          "url": "https://chess-results.com/tnr1530966.aspx?lan=1"
-        },
-        {
-          "name": "Satranç Turnuvası 15 Yaş",
-          "url": "https://chess-results.com/tnr1530972.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://antalya.tsf.org.tr/images/2026YildizlarBirinciligi/ynerge_YILDIZLAR_13-18_SATRAN_ANTALYA_L_BRNCL.pdf"
-    },
-    {
-      "id": "cr-1531049",
-      "name": "Bodrum 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "Muğla",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35'+30''",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "- U8 8 Yaş ve Altı - (2019 - 2020 Doğumlu Sporcular)",
-          "url": "https://chess-results.com/tnr1531049.aspx?lan=1"
-        },
-        {
-          "name": "- U10 10 Yaş ve Altı - 2017-2018 Doğumlu Sporcular",
-          "url": "https://chess-results.com/tnr1531058.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1530843",
-      "name": "Beylikdüzü Belediyesi 7. Geleneksel Cumhuriyet Kupası Satranç Turnuvası",
+      "id": "cr-1532932",
+      "name": "2026 Esenler İlçe Okul Sporları Satranç Turnuvası",
       "city": "İstanbul",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
+      "start": "2026-11-02",
+      "end": "2026-11-02",
       "type": "il",
-      "timeControl": "35''+30'",
+      "timeControl": "15'+5''",
       "rounds": 6,
       "categories": [
         {
-          "name": "16 Yaş ve Altı (2011-2014 Yıllarında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1530843.aspx?lan=1"
+          "name": "Gençler Genel (2008-2012 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1532931.aspx?lan=1"
+        },
+        {
+          "name": "Gençler Kızlar (2008-2012 Yılları ve Arası Doğumlu Kız Sporcular)",
+          "url": "https://chess-results.com/tnr1532932.aspx?lan=1"
+        },
+        {
+          "name": "Yıldızlar Genel (2012-2013-2014 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1532929.aspx?lan=1"
+        },
+        {
+          "name": "Yıldızlar Kızlar (2012-2013-2014 Yıllarında Doğan Kız Sporcular)",
+          "url": "https://chess-results.com/tnr1532930.aspx?lan=1"
+        },
+        {
+          "name": "Küçükler Genel (2015-2016 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1532928.aspx?lan=1"
         }
       ],
       "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra 7 Yaş Kategorisi 8 Yaş Kategorisi 9 Yaş Kategorisi 10 Yaş Kategorisi 1 6.000 ₺ 6.000 ₺ 6.000 ₺ 6.000 ₺"
+        "Her Kategoride; Kategorilerinde ilk dört dereceyi elde eden takımlara Kupa ve sporcularına Madalya verilecektir."
       ],
       "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/29ekim/sariyer2026_yonerge.pdf"
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/esenler2026_yonerge.pdf"
     },
     {
-      "id": "cr-1531142",
-      "name": "Kartal Belediyesi 29 Ekim Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "İstanbul",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35 dakika + 30 saniye hamle başına ekleme",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "9 - 10 Yaş",
-          "url": "https://chess-results.com/tnr1531152.aspx?lan=1"
-        },
-        {
-          "name": "11 - 14 Yaş",
-          "url": "https://chess-results.com/tnr1531153.aspx?lan=1"
-        },
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1531142.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk on dereceyi elde eden sporculara Satranç Takımı verilecektir.",
-        "Turnuvayı tamamlayan tüm sporculara Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra U8 Kategorisi U10 Kategorisi U14 Kategorisi A"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/29ekim/kartal2026_yonerge.pdf"
-    },
-    {
-      "id": "cr-1530403",
-      "name": "Datça 29 Ekim Cumhuriyet Bayramı Elo Satranç Turnuvası",
+      "id": "cr-1532694",
+      "name": "2026–2027 Öğretim Yılı Beylikdüzü Gsim Okullar Arası Satranç Turnuvası",
       "city": "",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
+      "start": "2026-11-02",
+      "end": "2026-11-02",
       "type": "il",
-      "timeControl": "35' + 30\"",
-      "rounds": 5,
+      "timeControl": "15'+5''",
+      "rounds": 7,
       "categories": [
         {
-          "name": "8 Yaş",
-          "url": "https://chess-results.com/tnr1530403.aspx?lan=1"
-        },
-        {
-          "name": "10 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1530405.aspx?lan=1"
-        },
-        {
-          "name": "12 Yaş ve Altı",
-          "url": "https://chess-results.com/tnr1530408.aspx?lan=1"
+          "name": "Gençler Açık",
+          "url": "https://chess-results.com/tnr1532694.aspx?lan=1"
         }
       ],
       "prizes": [],
       "source": "chess-results"
-    },
-    {
-      "id": "cr-1531211",
-      "name": "Isparta Küçükler İl Birinciliği",
-      "city": "Isparta",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "45'+30'' Eklemeli Tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Satranç Turnuvası 9 Yaş Kız",
-          "url": "https://chess-results.com/tnr1531215.aspx?lan=1"
-        },
-        {
-          "name": "Satranç Turnuvası 11-12 Yaş Genel",
-          "url": "https://chess-results.com/tnr1531211.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://isparta.tsf.org.tr/images/KKLER_7-12_SATRAN_ISPARTA_L_BRNCL_1.pdf"
-    },
-    {
-      "id": "cr-1530398",
-      "name": "Nazilli Cumhuriyet Bayramı Satranç Turnuvası",
-      "city": "",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "type": "il",
-      "timeControl": "35 dakika + hamle başına 30 saniye eklemeli tempo",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1530398.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.aydin.tsf.org.tr/images/AYDIN_29_EKM_CUMHURYET_BAYRAMI_SATRAN_TURNUVASI_YNERGES.pdf"
     },
     {
       "id": "tsf-1068",
@@ -572,24 +92,6 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1065",
       "source": "tsf"
-    },
-    {
-      "id": "cr-1496456",
-      "name": "Internatıonal Chess Festıval - Kardzhalı 2026 6-8 November | Standard & Blitz | 4000 Eur",
-      "city": "",
-      "start": "2026-11-06",
-      "end": "2026-11-08",
-      "type": "il",
-      "timeControl": "60 minutes with 30 seconds increment from move 1",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1496456.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
     },
     {
       "id": "tsf-1052",
