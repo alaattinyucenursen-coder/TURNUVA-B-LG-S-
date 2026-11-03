@@ -1,61 +1,6 @@
 {
-  "updated": "2026-11-02T04:53:50+00:00",
+  "updated": "2026-11-03T04:47:56+00:00",
   "tournaments": [
-    {
-      "id": "cr-1532932",
-      "name": "2026 Esenler İlçe Okul Sporları Satranç Turnuvası",
-      "city": "İstanbul",
-      "start": "2026-11-02",
-      "end": "2026-11-02",
-      "type": "il",
-      "timeControl": "15'+5''",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Gençler Genel (2008-2012 Yılları ve Arası Doğumlu Sporcular)",
-          "url": "https://chess-results.com/tnr1532931.aspx?lan=1"
-        },
-        {
-          "name": "Gençler Kızlar (2008-2012 Yılları ve Arası Doğumlu Kız Sporcular)",
-          "url": "https://chess-results.com/tnr1532932.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Genel (2012-2013-2014 Yıllarında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1532929.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Kızlar (2012-2013-2014 Yıllarında Doğan Kız Sporcular)",
-          "url": "https://chess-results.com/tnr1532930.aspx?lan=1"
-        },
-        {
-          "name": "Küçükler Genel (2015-2016 Yıllarında Doğan Sporcular)",
-          "url": "https://chess-results.com/tnr1532928.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; Kategorilerinde ilk dört dereceyi elde eden takımlara Kupa ve sporcularına Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/esenler2026_yonerge.pdf"
-    },
-    {
-      "id": "cr-1532694",
-      "name": "2026–2027 Öğretim Yılı Beylikdüzü Gsim Okullar Arası Satranç Turnuvası",
-      "city": "",
-      "start": "2026-11-02",
-      "end": "2026-11-02",
-      "type": "il",
-      "timeControl": "15'+5''",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "Gençler Açık",
-          "url": "https://chess-results.com/tnr1532694.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
     {
       "id": "tsf-1068",
       "name": "2025 - 2026 Türkiye Görme Engelliler Satranç Şampiyonası",
@@ -92,6 +37,24 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1065",
       "source": "tsf"
+    },
+    {
+      "id": "cr-1496456",
+      "name": "Internatıonal Chess Festıval - Kardzhalı 2026 6-8 November | Standard & Blitz | 4000 Eur",
+      "city": "",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "type": "il",
+      "timeControl": "60 minutes with 30 seconds increment from move 1",
+      "rounds": 7,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1496456.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "tsf-1052",
