@@ -33,6 +33,10 @@ jobs:
           sed -i "s/versionCode 1$/versionCode ${{ github.run_number }}/; s/versionName \"1.0\"/versionName \"0.1.${{ github.run_number }}\"/" android/app/build.gradle
           grep -n "background-runner\|versionCode\|versionName" android/app/build.gradle
       - run: npx cap sync android
+      - name: Uygulama simgesi
+        run: |
+          cp -r simge/mipmap-* android/app/src/main/res/
+          sed -i 's/#FFFFFF/#1F2937/I' android/app/src/main/res/values/ic_launcher_background.xml
       - name: APK oluştur
         working-directory: mobile/android
         # Sabit imza anahtarı: yeni sürümler eskisinin üzerine kurulabilsin
