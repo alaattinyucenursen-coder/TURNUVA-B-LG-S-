@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T04:47:56+00:00",
+  "updated": "2026-11-04T11:55:53+00:00",
   "tournaments": [
     {
       "id": "tsf-1068",
@@ -37,6 +37,32 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1065",
       "source": "tsf"
+    },
+    {
+      "id": "cr-1533655",
+      "name": "Türkiye Görme Engelliler Satranç Şampiyonası",
+      "city": "Mersin",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "type": "il",
+      "timeControl": "90 Dk + 30 Saniye",
+      "rounds": 9,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1533655.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Birden çok ödüle hak kazanan sporcuya bütün ödülleri verilir.",
+        "Turnuvadan çıkarılan ve son turda hükmen kaybeden sporcular başhakemin aksi yönde kararı olmadıkça hiçbir hak ve ödül alamazlar.",
+        "İlk üç sporcuya Kupa ve ilk on dereceyi elde eden sporculara Madalya, en iyi ilk üç kadın sporcuya Kupa ve Madalya verilecektir.",
+        "Sporcular elde ettikleri dereceler doğrultusunda ulusal ve uluslararası yarışmalarda değerlendirilebilir.",
+        "Şampiyonada tabloda belirtildiği şekilde 200.000 ₺ ödül dağıtılacaktır.",
+        "GENEL SIRALAMA KADINLAR 1499 VE ALTI MAKSİMUM RATİNGLİ Sıra Para Ödülü Sıra Para Ödülü Sıra Para Ödülü"
+      ],
+      "source": "chess-results",
+      "regulation": "https://tsf-s3.tsf.org.tr/tsf/uploads/2025_2026_gorme_engelliler_satranc_sampiyonasi_96c2aa1dfb.pdf"
     },
     {
       "id": "cr-1496456",
