@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T12:38:39+00:00",
+  "updated": "2026-11-10T12:18:05+00:00",
   "tournaments": [
     {
       "id": "tsf-1064",
@@ -24,6 +24,27 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1065",
       "source": "tsf"
+    },
+    {
+      "id": "cr-1538368",
+      "name": "2026 Elazığatatürk'ü Anma Yıldırım Satranç Turnuvası",
+      "city": "Elazığ",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "type": "il",
+      "timeControl": "5'+3''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1538368.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.elazig.tsf.org.tr/images/2026/ELAZI_ATATRK_ANMA_YILDIRIM_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "tsf-1052",
