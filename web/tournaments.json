@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T12:18:05+00:00",
+  "updated": "2026-11-11T11:45:03+00:00",
   "tournaments": [
     {
       "id": "tsf-1064",
@@ -26,25 +26,35 @@
       "source": "tsf"
     },
     {
-      "id": "cr-1538368",
-      "name": "2026 Elazığatatürk'ü Anma Yıldırım Satranç Turnuvası",
-      "city": "Elazığ",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
+      "id": "cr-1539084",
+      "name": "Mersin 10 Kasım Atatürk'ü Anma Satranç Turnuvası",
+      "city": "Mersin",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
       "type": "il",
-      "timeControl": "5'+3''",
+      "timeControl": "35'+30'' Eklemeli Tempo",
       "rounds": 6,
       "categories": [
         {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1538368.aspx?lan=1"
+          "name": "8 Yaş ve Altı (2019-2020 Doğumlular)",
+          "url": "https://chess-results.com/tnr1539080.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı (2017-2018 Doğumlular)",
+          "url": "https://chess-results.com/tnr1539082.aspx?lan=1"
+        },
+        {
+          "name": "14 Yaş ve Altı (2013-2016 Doğumlular)",
+          "url": "https://chess-results.com/tnr1539084.aspx?lan=1"
+        },
+        {
+          "name": "Açık (2020 ve Öncesi Doğumlular)",
+          "url": "https://chess-results.com/tnr1539086.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
+      "prizes": [],
       "source": "chess-results",
-      "regulation": "http://www.elazig.tsf.org.tr/images/2026/ELAZI_ATATRK_ANMA_YILDIRIM_SATRAN_TURNUVASI.pdf"
+      "regulation": "http://www.mersin.tsf.org.tr/images/MEZTL_BELEDYES_10_KASIM_ATATRK_ANMA_SATRAN_TURNUVA.pdf"
     },
     {
       "id": "tsf-1052",
