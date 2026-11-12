@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T11:45:03+00:00",
+  "updated": "2026-11-12T12:19:30+00:00",
   "tournaments": [
     {
       "id": "tsf-1064",
@@ -24,6 +24,45 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1065",
       "source": "tsf"
+    },
+    {
+      "id": "cr-1539735",
+      "name": "Öğretmenler Günü Satranç Turnuvası",
+      "city": "Bingöl",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "type": "il",
+      "timeControl": "25'+00\"",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1539735.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1539822",
+      "name": "Tcmb Kurum İçi Satranç Turnuvası",
+      "city": "İstanbul",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "type": "il",
+      "timeControl": "10'+5''",
+      "rounds": 7,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1539822.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara Kupa verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2026/baro/baro2026_yonerge.pdf"
     },
     {
       "id": "cr-1539084",
