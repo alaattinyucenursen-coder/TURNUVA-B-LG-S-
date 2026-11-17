@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T12:31:54+00:00",
+  "updated": "2026-11-17T12:52:33+00:00",
   "tournaments": [
     {
       "id": "cr-1541569",
@@ -39,14 +39,14 @@
       "website": "https://tk2026.tsf.org.tr/"
     },
     {
-      "id": "cr-1542820",
+      "id": "cr-1542822",
       "name": "Habizbinililer Yardımlaşma ve Dayanışma Derneği Satranç Turnuvası",
       "city": "Batman",
       "start": "2026-11-16",
       "end": "2026-11-17",
       "type": "il",
       "timeControl": "35\" + 30' EKLEMELİ TEMPO",
-      "rounds": 5,
+      "rounds": 6,
       "categories": [
         {
           "name": "08 Yaş ve Altı Sporcular",
@@ -69,7 +69,35 @@
       "source": "chess-results"
     },
     {
-      "id": "cr-1542882",
+      "id": "cr-1539949",
+      "name": "2. Int Gorulmeyen Gazete Blınd And Vısually Impaıred Chess Tournament",
+      "city": "İstanbul",
+      "start": "2026-11-16",
+      "end": "2026-11-20",
+      "type": "il",
+      "timeControl": "90 minutes + 30 seconds increment per move",
+      "rounds": 8,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1539949.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara, en başarılı kadın sporcu ve emektar sporcuya Kupa,",
+        "İlk beş dereceyi elde eden sporculara Madalya,",
+        "Turnuvayı tamamlayan tüm sporculara Katılım Sertifikası verilecektir.",
+        "Kategori ödüllerinde en başarılı emektar sporcu: 1977 ve önceki yıllarda doğan sporcuları, en başarılı Türk sporcu FIDE`de ülkesi TUR olan sporcuları kapsar.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
+        "Nakdi Ödüller: Final Sıra ÖDÜL 1.",
+        "₺ 2."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/gorulmeyen/gorulmeyen_gazete2026_yonerge.pdf"
+    },
+    {
+      "id": "cr-1542880",
       "name": "Selectıst Chess Cup Presented By Starbucks Sarıyer Satranç Turnuvası",
       "city": "",
       "start": "2026-11-16",
@@ -99,36 +127,67 @@
       "regulation": "https://istanbul.tsf.org.tr/images/turnuvalar/2027/starbucks/starbucs_sariyer2026_yonergesii.pdf"
     },
     {
-      "id": "cr-1539949",
-      "name": "2. Int Gorulmeyen Gazete Blınd And Vısually Impaıred Chess Tournament",
-      "city": "İstanbul",
-      "start": "2026-11-16",
-      "end": "2026-11-20",
+      "id": "cr-1543895",
+      "name": "2019-2018 Küçükler Satranç Bayburt Birinciliği",
+      "city": "Bayburt",
+      "start": "2026-11-17",
+      "end": "2026-11-18",
       "type": "il",
-      "timeControl": "90 minutes + 30 seconds increment per move",
-      "rounds": 8,
+      "timeControl": "45+30",
+      "rounds": 6,
       "categories": [
         {
           "name": "Genel",
-          "url": "https://chess-results.com/tnr1539949.aspx?lan=1"
-        },
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1543164.aspx?lan=1"
+          "url": "https://chess-results.com/tnr1543895.aspx?lan=1"
         }
       ],
       "prizes": [
-        "İlk üç dereceyi elde eden sporculara, en başarılı kadın sporcu ve emektar sporcuya Kupa,",
-        "İlk beş dereceyi elde eden sporculara Madalya,",
-        "Turnuvayı tamamlayan tüm sporculara Katılım Sertifikası verilecektir.",
-        "Kategori ödüllerinde en başarılı emektar sporcu: 1977 ve önceki yıllarda doğan sporcuları, en başarılı Türk sporcu FIDE`de ülkesi TUR olan sporcuları kapsar.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra ÖDÜL 1.",
-        "₺ 2."
+        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
       ],
       "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/gorulmeyen/gorulmeyen_gazete2026_yonerge.pdf"
+      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
+    },
+    {
+      "id": "cr-1543899",
+      "name": "2016-2015 Küçükler Satranç Bayburt Birinciliği",
+      "city": "Bayburt",
+      "start": "2026-11-17",
+      "end": "2026-11-18",
+      "type": "il",
+      "timeControl": "45+30",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1543899.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
+    },
+    {
+      "id": "cr-1543896",
+      "name": "2017 Küçükler Satranç Bayburt Birinciliği",
+      "city": "Bayburt",
+      "start": "2026-11-17",
+      "end": "2026-11-18",
+      "type": "il",
+      "timeControl": "45+30",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1543896.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
     },
     {
       "id": "tsf-1066",
@@ -141,6 +200,40 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1066",
       "source": "tsf"
+    },
+    {
+      "id": "cr-1542926",
+      "name": "Yenişehir Lions Klb ve Ezgi Satranç K. Öğretmenler Günü Hızlı Satranç Turnuvası",
+      "city": "Mersin",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "type": "il",
+      "timeControl": "10'+5'' eklemeli tempo",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "7 Yaş (2020 Doğumlular)",
+          "url": "https://chess-results.com/tnr1542920.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaş (2019 Doğumlular)",
+          "url": "https://chess-results.com/tnr1542922.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı (2017-2018 Doğumlular)",
+          "url": "https://chess-results.com/tnr1542925.aspx?lan=1"
+        },
+        {
+          "name": "14 Yaş ve Altı (2013-2016 Yılları ve Arası Doğumlular)",
+          "url": "https://chess-results.com/tnr1542926.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her kategoride ilk üç dereceyi elde eden sporculara ve en iyi dereceyi elde eden bayan sporcuya Kupa, 4. ve 5. dereceleri elde eden sporculara Satranç Kitabı, turnuvayı tamamlayan tüm sporculara Madal",
+        "Sporcular hak ettikleri tüm ödülleri alır."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.mersin.tsf.org.tr/images/MERSN__KADINLARI_RETMENLER_GN_HIZLI_SATRAN_TURNUVASI.pdf"
     },
     {
       "id": "tsf-1067",
