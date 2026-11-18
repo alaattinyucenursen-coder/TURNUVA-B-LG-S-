@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:52:33+00:00",
+  "updated": "2026-11-18T12:45:33+00:00",
   "tournaments": [
     {
       "id": "cr-1541569",
@@ -39,36 +39,6 @@
       "website": "https://tk2026.tsf.org.tr/"
     },
     {
-      "id": "cr-1542822",
-      "name": "Habizbinililer Yardımlaşma ve Dayanışma Derneği Satranç Turnuvası",
-      "city": "Batman",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
-      "type": "il",
-      "timeControl": "35\" + 30' EKLEMELİ TEMPO",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "08 Yaş ve Altı Sporcular",
-          "url": "https://chess-results.com/tnr1542819.aspx?lan=1"
-        },
-        {
-          "name": "10 Yaş ve Altı Sporcular",
-          "url": "https://chess-results.com/tnr1542820.aspx?lan=1"
-        },
-        {
-          "name": "12 Yaş ve Altı Sporcular",
-          "url": "https://chess-results.com/tnr1542821.aspx?lan=1"
-        },
-        {
-          "name": "14 Yaş ve Altı Sporcular",
-          "url": "https://chess-results.com/tnr1542822.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
       "id": "cr-1539949",
       "name": "2. Int Gorulmeyen Gazete Blınd And Vısually Impaıred Chess Tournament",
       "city": "İstanbul",
@@ -95,36 +65,6 @@
       ],
       "source": "chess-results",
       "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/gorulmeyen/gorulmeyen_gazete2026_yonerge.pdf"
-    },
-    {
-      "id": "cr-1542880",
-      "name": "Selectıst Chess Cup Presented By Starbucks Sarıyer Satranç Turnuvası",
-      "city": "",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
-      "type": "il",
-      "timeControl": "60'+30\"",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "A",
-          "url": "https://chess-results.com/tnr1542880.aspx?lan=1"
-        },
-        {
-          "name": "B",
-          "url": "https://chess-results.com/tnr1542882.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; Birinci dereceyi elde eden sporculara ve en iyi kadın sporcuya Kupa,",
-        "İlk üç dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre Starbucks Sarıyer Mağazası tarafından verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra A Kategorisi B Kategorisi 1.",
-        "₺ 6.000 ₺"
-      ],
-      "source": "chess-results",
-      "regulation": "https://istanbul.tsf.org.tr/images/turnuvalar/2027/starbucks/starbucs_sariyer2026_yonergesii.pdf"
     },
     {
       "id": "cr-1543895",
@@ -188,6 +128,36 @@
       ],
       "source": "chess-results",
       "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
+    },
+    {
+      "id": "cr-1544110",
+      "name": "Selectıst Chess Cup Presented By Starbucks Bahariye Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-18",
+      "end": "2026-11-19",
+      "type": "il",
+      "timeControl": "60'+30\"",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "A",
+          "url": "https://chess-results.com/tnr1544110.aspx?lan=1"
+        },
+        {
+          "name": "B",
+          "url": "https://chess-results.com/tnr1544114.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; Birinci dereceyi elde eden sporculara ve en iyi kadın sporcuya Kupa,",
+        "İlk üç dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre Starbucks Bahariye Mağazası tarafından verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
+        "Nakdi Ödüller: Final Sıra A Kategorisi B Kategorisi 1.",
+        "₺ 6.000 ₺"
+      ],
+      "source": "chess-results",
+      "regulation": "https://istanbul.tsf.org.tr/images/turnuvalar/2027/starbucks/starbucs_bahariye2026_yonergesii.pdf"
     },
     {
       "id": "tsf-1066",
