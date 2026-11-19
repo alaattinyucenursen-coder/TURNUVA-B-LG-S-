@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T12:45:33+00:00",
+  "updated": "2026-11-19T12:37:06+00:00",
   "tournaments": [
     {
       "id": "cr-1541569",
@@ -39,7 +39,7 @@
       "website": "https://tk2026.tsf.org.tr/"
     },
     {
-      "id": "cr-1539949",
+      "id": "cr-1544887",
       "name": "2. Int Gorulmeyen Gazete Blınd And Vısually Impaıred Chess Tournament",
       "city": "İstanbul",
       "start": "2026-11-16",
@@ -48,6 +48,10 @@
       "timeControl": "90 minutes + 30 seconds increment per move",
       "rounds": 8,
       "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1544887.aspx?lan=1"
+        },
         {
           "name": "Genel",
           "url": "https://chess-results.com/tnr1539949.aspx?lan=1"
@@ -67,70 +71,7 @@
       "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/gorulmeyen/gorulmeyen_gazete2026_yonerge.pdf"
     },
     {
-      "id": "cr-1543895",
-      "name": "2019-2018 Küçükler Satranç Bayburt Birinciliği",
-      "city": "Bayburt",
-      "start": "2026-11-17",
-      "end": "2026-11-18",
-      "type": "il",
-      "timeControl": "45+30",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1543895.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
-    },
-    {
-      "id": "cr-1543899",
-      "name": "2016-2015 Küçükler Satranç Bayburt Birinciliği",
-      "city": "Bayburt",
-      "start": "2026-11-17",
-      "end": "2026-11-18",
-      "type": "il",
-      "timeControl": "45+30",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1543899.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
-    },
-    {
-      "id": "cr-1543896",
-      "name": "2017 Küçükler Satranç Bayburt Birinciliği",
-      "city": "Bayburt",
-      "start": "2026-11-17",
-      "end": "2026-11-18",
-      "type": "il",
-      "timeControl": "45+30",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1543896.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk Üç dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "https://bayburt.tsf.org.tr/images/2027/Kkler_ve_Yldzlar_2027/KKLER_7-12_SATRAN_BAYBURT_L_BRNCL.pdf"
-    },
-    {
-      "id": "cr-1544110",
+      "id": "cr-1544114",
       "name": "Selectıst Chess Cup Presented By Starbucks Bahariye Satranç Turnuvası",
       "city": "",
       "start": "2026-11-18",
@@ -158,6 +99,88 @@
       ],
       "source": "chess-results",
       "regulation": "https://istanbul.tsf.org.tr/images/turnuvalar/2027/starbucks/starbucs_bahariye2026_yonergesii.pdf"
+    },
+    {
+      "id": "cr-1544996",
+      "name": "Düziçi Öğretmenler Günü Satranç Turnuvası",
+      "city": "Osmaniye",
+      "start": "2026-11-19",
+      "end": "2026-11-20",
+      "type": "il",
+      "timeControl": "35'+30\"",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "10yaş ve Altı",
+          "url": "https://chess-results.com/tnr1544996.aspx?lan=1"
+        },
+        {
+          "name": "14yaş ve Altı",
+          "url": "https://chess-results.com/tnr1544994.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1544993.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk üç dereceyi elde eden sporculara Madalya verilecektir.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre verilecek diğer ödüller aşağıdaki tablodaki gibidir Ayni Ödüller: Her Kategoride; Final Sıra Ödül Açıklama 1.",
+        "000 ₺ Hediye Çeki Düziçi İyiler Plastik'te kullanılır.",
+        "000 ₺ Hediye Çeki Düziçi İyiler Plastik'te kullanılır.",
+        "₺ Hediye"
+      ],
+      "source": "chess-results",
+      "regulation": "https://osmaniye.tsf.org.tr/images/Dzii_15_Temmuz_Demokrasi_ve_Milli_Birlik_Gn_Satran_Turnuvas.pdf"
+    },
+    {
+      "id": "cr-1545301",
+      "name": "Deneyim Satranç Güz Kampı Satranç Turnuvası",
+      "city": "Bursa",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "type": "il",
+      "timeControl": "45 DK.+30 SN.EKLEMELİ TEMPO",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1545301.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "İlk on dereceyi elde eden sporculara Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "https://bursa.tsf.org.tr/images/2026/Turnuvalar/deneyim%20satranc%20guz%20kampi%20satranc%20turnuvasi.pdf"
+    },
+    {
+      "id": "cr-1545292",
+      "name": "Selectıst Chess Cup 2. Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "type": "il",
+      "timeControl": "60'+30''",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1545292.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "İlk üç dereceyi elde eden sporculara ve en iyi kadın sporcuya Kupa,",
+        "İlk on dereceyi elde eden sporculara ve en iyi kadın sporcuya Madalya verilecektir.",
+        "Diğer Ödüller",
+        "Kategorilerde oluşan final sıralamasına göre Starbucks ve Midas tarafından verilecek diğer ödüller aşağıdaki tablodaki gibidir.",
+        "Nakdi Ödüller: Final Sıra Ödül 1.",
+        "₺ 2.",
+        "₺ 3."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/selectist/selectist2_yonerge.pdf"
     },
     {
       "id": "tsf-1066",
