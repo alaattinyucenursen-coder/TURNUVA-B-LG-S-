@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:40:18+00:00",
+  "updated": "2026-11-25T14:00:03+00:00",
   "tournaments": [
     {
       "id": "tsf-1066",
@@ -12,60 +12,6 @@
       "prizes": [],
       "regulation": "https://www.tsf.org.tr/etkinlik/1066",
       "source": "tsf"
-    },
-    {
-      "id": "cr-1546728",
-      "name": "Resul Caner Academy Norm Chess Tournament - Cat-b",
-      "city": "",
-      "start": "2026-11-23",
-      "end": "2026-11-28",
-      "type": "il",
-      "timeControl": "90 minutes with 30 second increment from move 1",
-      "rounds": 10,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1546728.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549428",
-      "name": "Silopi Öğretmenler Günü Hızlı Satranç Turnuvası",
-      "city": "Şırnak",
-      "start": "2026-11-23",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "10'+5''",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1549428.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549445",
-      "name": "İdil Öğretmenler Günü Hızlı Satranç Turnuvası",
-      "city": "Şırnak",
-      "start": "2026-11-23",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "10'+5''",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1549445.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
     },
     {
       "id": "cr-1546727",
@@ -86,169 +32,88 @@
       "source": "chess-results"
     },
     {
-      "id": "cr-1549596",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Küçükler Kızlar",
+      "id": "cr-1546728",
+      "name": "Resul Caner Academy Norm Chess Tournament - Cat-b",
       "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
+      "start": "2026-11-23",
+      "end": "2026-11-28",
       "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 6,
+      "timeControl": "90 minutes with 30 second increment from move 1",
+      "rounds": 10,
       "categories": [
         {
           "name": "Genel",
-          "url": "https://chess-results.com/tnr1549596.aspx?lan=1"
+          "url": "https://chess-results.com/tnr1546728.aspx?lan=1"
         }
       ],
       "prizes": [],
       "source": "chess-results"
     },
     {
-      "id": "cr-1549595",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Küçükler Açık",
-      "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549595.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549600",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Gençler Kızlar",
-      "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 6,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549600.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549599",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Gençler Açık",
-      "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549599.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549597",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Yıldızlar Açık",
-      "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549597.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549598",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Yıldızlar Kızlar",
-      "city": "",
-      "start": "2026-11-24",
-      "end": "2026-11-24",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 2,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549598.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1549756",
-      "name": "Tarsus Üniversitesi 2026-2027 Güz Turnuvası",
-      "city": "Mersin",
+      "id": "cr-1550540",
+      "name": "Ula 24 Kasım Öğretmenler Günü Satranç Turnuvası",
+      "city": "Muğla",
       "start": "2026-11-25",
-      "end": "2026-11-27",
+      "end": "2026-11-26",
       "type": "il",
-      "timeControl": "10'+5'' eklemeli tempo",
-      "rounds": 5,
+      "timeControl": "35'+30\"",
+      "rounds": 6,
       "categories": [
         {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549756.aspx?lan=1"
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1550540.aspx?lan=1"
         }
       ],
       "prizes": [],
       "source": "chess-results"
     },
     {
-      "id": "cr-1549591",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler B Kızlar",
+      "id": "cr-1550161",
+      "name": "2026–2027 Öğretim Yılı Sarıyer Gsim Okullar Arası Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "type": "il",
+      "timeControl": "15'+5''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Minikler(a) Açık",
+          "url": "https://chess-results.com/tnr1550137.aspx?lan=1"
+        },
+        {
+          "name": "Minikler(a) Kızlar",
+          "url": "https://chess-results.com/tnr1550145.aspx?lan=1"
+        },
+        {
+          "name": "Minikler(b) Açık",
+          "url": "https://chess-results.com/tnr1550159.aspx?lan=1"
+        },
+        {
+          "name": "Minikler(b) Kızlar",
+          "url": "https://chess-results.com/tnr1550161.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1549593",
+      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler A Açık",
       "city": "",
       "start": "2026-11-25",
       "end": "2026-11-25",
       "type": "il",
       "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 7,
+      "rounds": 6,
       "categories": [
         {
           "name": "Genel",
-          "url": "https://chess-results.com/tnr1549591.aspx?lan=1"
+          "url": "https://chess-results.com/tnr1549593.aspx?lan=1"
         }
       ],
       "prizes": [],
       "source": "chess-results"
-    },
-    {
-      "id": "cr-1549590",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler B Açık",
-      "city": "",
-      "start": "2026-11-25",
-      "end": "2026-11-25",
-      "type": "il",
-      "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 7,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1549590.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk dört dereceyi elde eden takımların sporcularına Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/cekmekoy2026_yonergesi.pdf"
     },
     {
       "id": "cr-1549594",
@@ -269,18 +134,98 @@
       "source": "chess-results"
     },
     {
-      "id": "cr-1549593",
-      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler A Açık",
+      "id": "cr-1550598",
+      "name": "Çatalca İlçe Okullar Arası Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "type": "il",
+      "timeControl": "15'+5''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Gençler Genel (2008-2012 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1550598.aspx?lan=1"
+        },
+        {
+          "name": "Yıldızlar Genel (2012-2014 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1550491.aspx?lan=1"
+        },
+        {
+          "name": "Yıldızlar Genel (2012-2014 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1550242.aspx?lan=1"
+        },
+        {
+          "name": "Küçükler Genel (2015-2016 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1550513.aspx?lan=1"
+        },
+        {
+          "name": "Küçükler Genel (2015-2016 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1550492.aspx?lan=1"
+        },
+        {
+          "name": "Küçükler Genel (2015-2016 Yıllarında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1550241.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk dört dereceyi elde eden takımların sporcularına Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/catalca2026_yonergesi_r.pdf"
+    },
+    {
+      "id": "cr-1549590",
+      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler B Açık",
       "city": "",
       "start": "2026-11-25",
       "end": "2026-11-25",
       "type": "il",
       "timeControl": "15'+10'' Eklemeli tempo",
-      "rounds": 7,
+      "rounds": 5,
       "categories": [
         {
           "name": "Genel",
-          "url": "https://chess-results.com/tnr1549593.aspx?lan=1"
+          "url": "https://chess-results.com/tnr1549590.aspx?lan=1"
+        }
+      ],
+      "prizes": [
+        "Her Kategoride; İlk dört dereceyi elde eden takımların sporcularına Madalya verilecektir."
+      ],
+      "source": "chess-results",
+      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/cekmekoy2026_yonergesi.pdf"
+    },
+    {
+      "id": "cr-1549591",
+      "name": "2026-2027 Öğretim Yılı Çekmeköy Gençlik Spor İlçe Müdürlüğü Okullar Arası Satra Minikler B Kızlar",
+      "city": "",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "type": "il",
+      "timeControl": "15'+10'' Eklemeli tempo",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1549591.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1549756",
+      "name": "Tarsus Üniversitesi 2026-2027 Güz Turnuvası",
+      "city": "Mersin",
+      "start": "2026-11-25",
+      "end": "2026-11-27",
+      "type": "il",
+      "timeControl": "10'+5'' eklemeli tempo",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1549756.aspx?lan=1"
         }
       ],
       "prizes": [],
