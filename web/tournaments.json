@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T13:39:25+00:00",
+  "updated": "2026-11-27T13:35:18+00:00",
   "tournaments": [
     {
       "id": "tsf-1066",
@@ -32,124 +32,6 @@
       "source": "chess-results"
     },
     {
-      "id": "cr-1546727",
-      "name": "Resul Caner Academy Norm Chess Tournament - Cat-a",
-      "city": "",
-      "start": "2026-11-23",
-      "end": "2026-11-28",
-      "type": "il",
-      "timeControl": "90 minutes with 30 second increment from move 1",
-      "rounds": 10,
-      "categories": [
-        {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1546727.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1550540",
-      "name": "Ula 24 Kasım Öğretmenler Günü Satranç Turnuvası",
-      "city": "Muğla",
-      "start": "2026-11-25",
-      "end": "2026-11-26",
-      "type": "il",
-      "timeControl": "35'+30\"",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Açık",
-          "url": "https://chess-results.com/tnr1550540.aspx?lan=1"
-        }
-      ],
-      "prizes": [],
-      "source": "chess-results"
-    },
-    {
-      "id": "cr-1550705",
-      "name": "2026–2027 Başakşehir Gsim Okullar Arası Satranç Turnuvası",
-      "city": "",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "type": "il",
-      "timeControl": "15'+5'' eklemeli tempo",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Gençler Açık",
-          "url": "https://chess-results.com/tnr1550712.aspx?lan=1"
-        },
-        {
-          "name": "Gençler Kızlar",
-          "url": "https://chess-results.com/tnr1550714.aspx?lan=1"
-        },
-        {
-          "name": "Küçükler Açık",
-          "url": "https://chess-results.com/tnr1550705.aspx?lan=1"
-        },
-        {
-          "name": "Küçükler Kızlar",
-          "url": "https://chess-results.com/tnr1550706.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Açık",
-          "url": "https://chess-results.com/tnr1550707.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Kızlar",
-          "url": "https://chess-results.com/tnr1550708.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; Kategorilerinde ilk dört dereceyi elde eden takımlara Kupa ve sporcularına Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/basaksehir2026_yonergesi.pdf"
-    },
-    {
-      "id": "cr-1550853",
-      "name": "2026-2027 Öğretim Yılı Fatih Gsim İlçe Okullar Arası Satranç Turnuvası",
-      "city": "",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "type": "il",
-      "timeControl": "15'+5\"",
-      "rounds": 5,
-      "categories": [
-        {
-          "name": "Gençler Genel",
-          "url": "https://chess-results.com/tnr1550854.aspx?lan=1"
-        },
-        {
-          "name": "Gençler Kızlar",
-          "url": "https://chess-results.com/tnr1550855.aspx?lan=1"
-        },
-        {
-          "name": "Küçükler Genel",
-          "url": "https://chess-results.com/tnr1550850.aspx?lan=1"
-        },
-        {
-          "name": "Küçükler Kızlar",
-          "url": "https://chess-results.com/tnr1550851.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Genel",
-          "url": "https://chess-results.com/tnr1550852.aspx?lan=1"
-        },
-        {
-          "name": "Yıldızlar Kızlar",
-          "url": "https://chess-results.com/tnr1550853.aspx?lan=1"
-        }
-      ],
-      "prizes": [
-        "Her Kategoride; İlk dört dereceyi elde eden takımların sporcularına Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.istanbul.tsf.org.tr/images/turnuvalar/2027/okulspor/fatih2026_yonergesi.pdf"
-    },
-    {
       "id": "cr-1551210",
       "name": "Kasım Ayı En İyi 64 Satranç Turnuvası",
       "city": "",
@@ -157,76 +39,259 @@
       "end": "2026-11-29",
       "type": "il",
       "timeControl": "90'+30\"",
-      "rounds": 6,
+      "rounds": 5,
       "categories": [
         {
           "name": "Açık",
           "url": "https://chess-results.com/tnr1551210.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk üç dereceyi elde eden sporculara Madalya verilecektir.",
-        "Diğer Ödüller",
-        "Kategorilerde oluşan final sıralamasına göre verilecek 9.000 ₺ nakdi ödül aşağıdaki tablodaki gibidir.",
-        "Nakdi Ödüller: Final Sıra Açık Kategori 1.",
-        "₺ 2.",
-        "₺ 3.",
-        "₺"
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.adana.tsf.org.tr/images/KASIM_AYI_EN_Y_64_SATRAN_TURNUVASI_3.pdf"
+      "prizes": [],
+      "source": "chess-results"
     },
     {
-      "id": "cr-1550864",
-      "name": "9.sınıflar Arası Satranç Turnuvası",
+      "id": "cr-1551482",
+      "name": "2026-2027 Öğretim Yılı Fatih Gsim İlçe Okullar Arası Satranç Turnuvası",
       "city": "",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
       "type": "il",
-      "timeControl": "20'",
-      "rounds": 1,
+      "timeControl": "15'+5\"",
+      "rounds": 6,
       "categories": [
         {
-          "name": "Genel",
-          "url": "https://chess-results.com/tnr1550864.aspx?lan=1"
+          "name": "Minikler A Genel",
+          "url": "https://chess-results.com/tnr1551485.aspx?lan=1"
+        },
+        {
+          "name": "Minikler A Kızlar",
+          "url": "https://chess-results.com/tnr1551487.aspx?lan=1"
+        },
+        {
+          "name": "Minikler B Genel",
+          "url": "https://chess-results.com/tnr1551482.aspx?lan=1"
+        },
+        {
+          "name": "Minikler B Kızlar",
+          "url": "https://chess-results.com/tnr1551483.aspx?lan=1"
         }
       ],
       "prizes": [],
       "source": "chess-results"
     },
     {
-      "id": "cr-1551155",
-      "name": "2026-2027 Küçükler 11-12 Yaş Satranç Bursa İl Birinciliği",
-      "city": "Bursa",
+      "id": "cr-1551928",
+      "name": "Çatalca İlçe Okullar Arası Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "type": "il",
+      "timeControl": "15'+5''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Minikler A Genel (2016-2018 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1551928.aspx?lan=1"
+        },
+        {
+          "name": "Minikler A Kızlar (2016-2018 Yılları ve Arası Doğumlu Sporcular)",
+          "url": "https://chess-results.com/tnr1551930.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1552323",
+      "name": "Saray Belediyesi Ödüllü Satranç Turnuvası",
+      "city": "Tekirdağ",
       "start": "2026-11-28",
       "end": "2026-11-29",
       "type": "il",
-      "timeControl": "45 Dakika+30 Saniye Eklemeli Tempo",
+      "timeControl": "35'+30\"",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1552322.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1552323.aspx?lan=1"
+        },
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1552321.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1551632",
+      "name": "Ufuk Aksoy Anısına Çeşme Çydd Şubesi 2. Elo Turnuvası",
+      "city": "İzmir",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "60'+30\" EKLEMELİ TEMPO",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1551632.aspx?lan=1"
+        },
+        {
+          "name": "A",
+          "url": "https://chess-results.com/tnr1551630.aspx?lan=1"
+        },
+        {
+          "name": "B",
+          "url": "https://chess-results.com/tnr1551631.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1552327",
+      "name": "Türkiye Kadınlar Satranç Kocaeli İl Birinciliği",
+      "city": "Kocaeli",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "45'+30''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1552327.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1552287",
+      "name": "Hılltown Satranç Kulübü Hamle Sırası Sende 7. Satranç Turnuvası",
+      "city": "",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "35'+30''",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Genel",
+          "url": "https://chess-results.com/tnr1552287.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1552083",
+      "name": "Dünya Engelliler Günü Satranç Turnuvası",
+      "city": "İzmir",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "35' + 30\" Eklemeli Zaman Temposu",
+      "rounds": 5,
+      "categories": [
+        {
+          "name": "7 Yaş (2020 Yılında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1552083.aspx?lan=1"
+        },
+        {
+          "name": "8 Yaş (2019 Yılında Doğan Sporcular)",
+          "url": "https://chess-results.com/tnr1552082.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1551973",
+      "name": "Köyceğiz 24 Kasım Öğretmenler Günü Satranç Turnuvası",
+      "city": "Muğla",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "45 DAKİKA + HAMLE BAŞINA 30 SANİYE EKLEMELİ TEMPO",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1551972.aspx?lan=1"
+        },
+        {
+          "name": "Açık",
+          "url": "https://chess-results.com/tnr1551973.aspx?lan=1"
+        }
+      ],
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1551620",
+      "name": "2027 Küçükler Balıkesir Satranç İl Birinciliği",
+      "city": "Balıkesir",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "45' + 30\" EKLEMELİ TEMPO",
       "rounds": 0,
       "categories": [
         {
-          "name": "11 Yaş Genel",
-          "url": "https://chess-results.com/tnr1551152.aspx?lan=1"
+          "name": "10 Yaş Genel",
+          "url": "https://chess-results.com/tnr1551605.aspx?lan=1"
         },
         {
-          "name": "11 Yaş Kız",
-          "url": "https://chess-results.com/tnr1551153.aspx?lan=1"
+          "name": "10 Yaş Kızlar",
+          "url": "https://chess-results.com/tnr1551606.aspx?lan=1"
+        },
+        {
+          "name": "11 Yaş Genel",
+          "url": "https://chess-results.com/tnr1551610.aspx?lan=1"
+        },
+        {
+          "name": "11 Yaş Kızlar",
+          "url": "https://chess-results.com/tnr1551612.aspx?lan=1"
         },
         {
           "name": "12 Yaş Genel",
-          "url": "https://chess-results.com/tnr1551154.aspx?lan=1"
+          "url": "https://chess-results.com/tnr1551614.aspx?lan=1"
         },
         {
-          "name": "12 Yaş Kız",
-          "url": "https://chess-results.com/tnr1551155.aspx?lan=1"
+          "name": "12 Yaş Kızlar",
+          "url": "https://chess-results.com/tnr1551620.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "Her Kategoride; İlk on dereceyi elde eden sporculara Madalya verilecektir."
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1551609",
+      "name": "1.form Aydın Satranç Turnuvası",
+      "city": "Aydın",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "type": "il",
+      "timeControl": "45 dakika + hamle başına 30 saniye eklemeli tempo",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "8 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1551603.aspx?lan=1"
+        },
+        {
+          "name": "10 Yaş ve Altı",
+          "url": "https://chess-results.com/tnr1551609.aspx?lan=1"
+        }
       ],
-      "source": "chess-results",
-      "regulation": "http://www.bursa.tsf.org.tr/images/2026/Turnuvalar/yonerge26_kucukler_11-12yas.pdf"
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "cr-1551167",
@@ -247,10 +312,6 @@
           "url": "https://chess-results.com/tnr1551159.aspx?lan=1"
         },
         {
-          "name": "14 Yaş Genel-kız",
-          "url": "https://chess-results.com/tnr1551161.aspx?lan=1"
-        },
-        {
           "name": "15 Yaş Genel",
           "url": "https://chess-results.com/tnr1551162.aspx?lan=1"
         },
@@ -267,41 +328,48 @@
           "url": "https://chess-results.com/tnr1551165.aspx?lan=1"
         },
         {
-          "name": "17 Yaş Genel",
-          "url": "https://chess-results.com/tnr1551166.aspx?lan=1"
-        },
-        {
           "name": "18 Yaş Genel-kız",
           "url": "https://chess-results.com/tnr1551167.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "Her Kategoride; İlk on dereceyi elde eden sporculara Madalya verilecektir."
-      ],
-      "source": "chess-results",
-      "regulation": "http://www.bursa.tsf.org.tr/images/2026/Turnuvalar/yonerge26_yildizlar_13-18yas.pdf"
+      "prizes": [],
+      "source": "chess-results"
     },
     {
-      "id": "cr-1550696",
-      "name": "Usak Kadinlar İl Birinciligi",
-      "city": "Uşak",
+      "id": "cr-1551429",
+      "name": "Söke 24 Kasım Öğretmenler Günü Satranç Turnuvası",
+      "city": "",
       "start": "2026-11-28",
       "end": "2026-11-29",
       "type": "il",
-      "timeControl": "45'+30\" EKLEMELİ TEMPO",
+      "timeControl": "35 Dakika + Hamle Başına 30 Saniye Eklemeli Tempo",
       "rounds": 6,
       "categories": [
         {
-          "name": "Satranc Turnuvasi Kadınlar",
-          "url": "https://chess-results.com/tnr1550696.aspx?lan=1"
+          "name": "B",
+          "url": "https://chess-results.com/tnr1551429.aspx?lan=1"
         }
       ],
-      "prizes": [
-        "İlk üç dereceyi elde eden sporculara Kupa,",
-        "İlk üç dereceyi elde eden sporculara Madalya verilecektir."
+      "prizes": [],
+      "source": "chess-results"
+    },
+    {
+      "id": "cr-1552034",
+      "name": "Yurtlig Burdur İl Seçmeleri Hızlı Satranç Takım Turnuvası",
+      "city": "Burdur",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "type": "il",
+      "timeControl": "15'+10\" eklemeli tempo",
+      "rounds": 6,
+      "categories": [
+        {
+          "name": "Kızlar",
+          "url": "https://chess-results.com/tnr1552034.aspx?lan=1"
+        }
       ],
-      "source": "chess-results",
-      "regulation": "http://www.usak.tsf.org.tr/images/1._2026/18._KADNLAR_L_BRNCLG/UAK_TRKYE_KADINLAR_SATRAN_UAK_L_BRNCL_YNERGES_2.pdf"
+      "prizes": [],
+      "source": "chess-results"
     },
     {
       "id": "tsf-1067",
